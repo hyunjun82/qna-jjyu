@@ -15,7 +15,6 @@ export function GovernmentLink({ links }: GovernmentLinkProps) {
             {link.url && (
               <a
                 href={link.url}
-                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-gov-600 hover:underline"
               >
