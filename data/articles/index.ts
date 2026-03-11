@@ -11,17 +11,23 @@ import {
   hubArticle as 취업Hub,
   spokeArticles as 취업Spokes,
 } from "./취업";
+import {
+  hubArticle as 생활정보Hub,
+  spokeArticles as 생활정보Spokes,
+} from "./생활정보";
 
 export const hubArticles: Record<string, HubArticle> = {
   법률: 법률Hub,
   지원금: 지원금Hub,
   취업: 취업Hub,
+  생활정보: 생활정보Hub,
 };
 
 export const spokeArticles: Record<string, Record<string, QnAArticle>> = {
   법률: 법률Spokes,
   지원금: 지원금Spokes,
   취업: 취업Spokes,
+  생활정보: 생활정보Spokes,
 };
 
 export function getHubArticle(categorySlug: string): HubArticle | undefined {

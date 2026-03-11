@@ -57,4 +57,11 @@ export const categories: Category[] = [
     description: "이혼 절차, 상속 순위, 내용증명 작성법 등 생활 법률 Q&A",
     count: 0,
   },
+  {
+    name: "생활정보",
+    slug: "생활정보",
+    icon: "📋",
+    description: "여권 재발급, 주민등록, 운전면허 등 행정절차·생활 꿀팁 Q&A",
+    count: 0,
+  },
 ];
