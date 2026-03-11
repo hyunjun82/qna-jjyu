@@ -54,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <meta name="DaumWebMasterTool" content="4e5def8737469555870bce9166b059dc2ef3c89cb83b7bbc60eee91747199eb1:v7Xp0NDmJXjax3Clnl3VCA==" />
+        <meta name="DaumWebMasterTool" content="c7d01c55ce323477045e12d66af904f9d10bc68499bd2221c07099e23b6aec4c:v7Xp0NDmJXjax3Clnl3VCA==" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
