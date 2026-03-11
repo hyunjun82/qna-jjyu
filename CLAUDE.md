@@ -31,6 +31,7 @@
 키워드를 받으면 **반드시 `.claude/skills/article-writing/SKILL.md`를 읽고** 순서대로 따라간다.
 
 ```
+STEP -1: 지식인 답변 먼저 작성 (즉답 → 핵심정보 → 사이트 유도)
 STEP 0: source-data 수집 (source-data 없이 글 작성 금지)
 STEP 1: 메타데이터 작성
 STEP 2: 섹션 작성 (8대 원칙 준수)
@@ -39,6 +40,8 @@ STEP 4: 시각화 매핑
 STEP 5: hub 엔트리 추가
 STEP 6: 검증 (verify-all.js + build)
 ```
+
+**절대 순서: 지식인 답변 → 사이트 글. 역순 금지.**
 
 ## 소스 규칙 (절대)
 
