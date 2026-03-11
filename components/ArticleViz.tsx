@@ -166,6 +166,43 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+  "근로자녀장려금-소득기준-가구유형-신청자격": {
+    top: (
+      <QuickAnswerBox
+        answer="근로장려금: 단독 2,200만원·홑벌이 3,200만원·맞벌이 4,400만원 미만. 자녀장려금: 7,000만원 미만. 재산 2.4억원 미만."
+      />
+    ),
+    "after-1": (
+      <BracketTable
+        title="맞벌이·홑벌이 구분 기준"
+        headers={["가구유형", "조건"]}
+        rows={[
+          { range: "단독가구", values: ["배우자·부양자녀·70세 이상 직계존속 없음"] },
+          { range: "홑벌이가구", values: ["배우자 총급여액 등 300만원 미만 또는 부양자녀·70세 이상 직계존속 있음"] },
+          { range: "맞벌이가구", values: ["부부 각각 총급여액 등 300만원 이상"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <TipAlert type="warning" title="재산 구간별 지급 차이">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>1.7억원 미만: 전액 지급</li>
+          <li>1.7억~2.4억원: 산정액의 50%만 지급</li>
+          <li>2.4억원 이상: 신청 불가</li>
+          <li>부채는 차감하지 않음 (총액 기준)</li>
+        </ul>
+      </TipAlert>
+    ),
+    "after-3": (
+      <GovernmentLink
+        links={[
+          { name: "국세청 장려금 신청자격", description: "소득·재산 요건 공식 안내", url: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783", urlLabel: "국세청 바로가기" },
+          { name: "홈택스 장려금 모의계산", description: "예상 수급액 미리 확인", url: "https://www.hometax.go.kr", urlLabel: "홈택스 바로가기" },
+          { name: "국세상담센터", description: "장려금 관련 상담", phone: "126" },
+        ]}
+      />
+    ),
+  },
   "실업급여-구직활동-실업인정-증빙서류": {
     top: (
       <QuickAnswerBox
