@@ -38,6 +38,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://qna.jjyu.co.kr",
   },
+  verification: {
+    google: "kPe6sAN7cMBDG2OVVWHcI8hH-BxkT5Zv6U8TVWTxuwI",
+    other: {
+      "naver-site-verification": "4c27da0571079f11feb4d9bc92757de7700ddacb",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -48,6 +54,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="DaumWebMasterTool" content="4e5def8737469555870bce9166b059dc2ef3c89cb83b7bbc60eee91747199eb1:v7Xp0NDmJXjax3Clnl3VCA==" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
