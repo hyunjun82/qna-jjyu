@@ -77,6 +77,52 @@ const VIZ_MAP: VizMap = {
       </TipAlert>
     ),
   },
+  "소상공인-확인서-발급-절차-서류-신청방법": {
+    top: (
+      <StepByStep
+        steps={[
+          { number: 1, title: "회원가입 및 로그인", description: "sminfo.mss.go.kr 사업자등록번호로 가입" },
+          { number: 2, title: "온라인 자료제출", description: "국세청 자료(재무제표·원천세) 연동 제출" },
+          { number: 3, title: "제출자료 조회", description: "자료제출 완료 여부 확인 (필수!)" },
+          { number: 4, title: "신청서 작성", description: "기업정보·업종·매출액 입력 후 제출" },
+          { number: 5, title: "진행상황 확인", description: "소상공인 유예 검토 시 추가 절차" },
+          { number: 6, title: "확인서 출력", description: "PDF 출력 (진본확인 프로그램 필요)" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <GovernmentLink
+        links={[
+          { name: "중소기업현황정보시스템", description: "소상공인 확인서 온라인 발급", url: "https://sminfo.mss.go.kr", urlLabel: "sminfo 바로가기" },
+          { name: "소상공인24", description: "지원사업 조회·증명서 발급", url: "https://www.sbiz24.kr", urlLabel: "소상공인24 바로가기" },
+          { name: "중소기업 통합콜센터", description: "발급 관련 일반 상담", phone: "1357" },
+          { name: "시스템 문의", description: "온라인 자료제출·시스템 오류", phone: "1811-6508" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ChecklistCard
+        title="소상공인 확인서 기본 제출서류"
+        items={[
+          "사업자등록증",
+          "재무제표 (간편장부 포함)",
+          "원천세 신고내역 (해당 시)",
+          "4대보험 가입자 명부",
+        ]}
+        note="기업 유형(7가지)에 따라 추가 서류가 다를 수 있음"
+      />
+    ),
+    "after-3": (
+      <TipAlert type="warning" title="발급 시 꼭 기억할 점">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>반드시 자료제출 → 신청서 순서 지킬 것 (역순 시 오류)</li>
+          <li>소상공인 유예 검토 대상은 과거규모 확인 추가 필요</li>
+          <li>확인서 출력 시 진본확인 프로그램 설치 필수</li>
+          <li>2026년 유효기간: 2026.04.01 ~ 2027.03.31</li>
+        </ul>
+      </TipAlert>
+    ),
+  },
 };
 
 export function ArticleViz({

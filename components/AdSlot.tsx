@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { AdClickGuard } from "./AdClickGuard";
 
 declare global {
   interface Window {
@@ -22,15 +23,17 @@ export function AdSlot() {
   }, []);
 
   return (
-    <div className="my-4 overflow-hidden">
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client="ca-pub-2442517902625121"
-        data-ad-slot="8217706520"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-    </div>
+    <AdClickGuard>
+      <div className="my-4 overflow-hidden">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-2442517902625121"
+          data-ad-slot="8217706520"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+      </div>
+    </AdClickGuard>
   );
 }
