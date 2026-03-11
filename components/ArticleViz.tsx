@@ -242,6 +242,45 @@ const VIZ_MAP: VizMap = {
       </TipAlert>
     ),
   },
+  "상생페이백-디지털-온누리상품권-유효기간-사용처": {
+    top: (
+      <QuickAnswerBox
+        answer="유효기간은 충전일로부터 5년(전통시장특별법 근거). 전통시장·상점가 온누리 가맹점에서 사용 가능. 편의점·대형마트·백화점은 사용 불가."
+      />
+    ),
+    "after-0": (
+      <TipAlert type="warning" title="유효기간 오해 주의">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>디지털 온누리상품권 유효기간: 충전일로부터 <strong>5년</strong></li>
+          <li>법적 근거: 전통시장 및 상점가 육성을 위한 특별법 제26조의2 제2항</li>
+          <li>2025년 11~12월 충전분 → 2030년 11~12월까지 사용 가능</li>
+          <li>"1년"은 잘못된 정보 → 모바일 직접구매와 혼동한 것</li>
+        </ul>
+      </TipAlert>
+    ),
+    "after-2": (
+      <ChecklistCard
+        title="사용 불가 업종 체크리스트"
+        items={[
+          "편의점 (GS25, CU, 세븐일레븐, 이마트24)",
+          "대형마트 (이마트, 홈플러스, 코스트코)",
+          "백화점 (롯데, 현대, 신세계)",
+          "기업형 슈퍼(SSM)",
+          "유흥업소·프랜차이즈 직영점 일부",
+        ]}
+        note="전통시장·상점가 안 온누리 가맹점만 사용 가능"
+      />
+    ),
+    "after-3": (
+      <GovernmentLink
+        links={[
+          { name: "전통시장통통 앱", description: "가맹점 검색·위치 안내", url: "https://www.sbiz.or.kr/sijangtong/nation/onnuri/onnuriMktList.do", urlLabel: "가맹점 찾기" },
+          { name: "소상공인시장진흥공단", description: "온누리상품권 공식 안내", url: "https://www.semas.or.kr/web/SUP01/SUP0112/SUP011205.kmdc", urlLabel: "공식 안내 바로가기" },
+          { name: "상생페이백 공식", description: "환급 내역·잔액 확인", url: "https://상생페이백.kr/", urlLabel: "상생페이백 바로가기" },
+        ]}
+      />
+    ),
+  },
 };
 
 export function ArticleViz({
