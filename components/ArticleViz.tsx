@@ -166,6 +166,45 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+  "실업급여-구직활동-실업인정-증빙서류": {
+    top: (
+      <QuickAnswerBox
+        answer="고용24(워크넷) 입사지원은 전산 확인 가능 → 별도 출력 불필요. 민간 사이트(사람인·잡코리아) 지원은 지원완료 화면 캡처 준비."
+      />
+    ),
+    "after-1": (
+      <TipAlert type="warning" title="워크넷 이메일 입사지원 횟수 제한">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>소정급여일수 120일 이하: 최대 4회까지만 인정</li>
+          <li>소정급여일수 150일 이상: 최대 6회까지만 인정</li>
+          <li>초과분은 구직활동으로 인정 안 됨 → 다른 활동 필요</li>
+        </ul>
+      </TipAlert>
+    ),
+    "after-2": (
+      <ChecklistCard
+        title="지원 방법별 준비 서류"
+        items={[
+          "고용24(워크넷) 지원 → 전산 확인 (별도 출력 불필요)",
+          "사업장 방문 → 명함 또는 사업체명·담당자명 메모",
+          "우편 지원 → 모집공고 복사본 + 입사지원서 + 등기수령증",
+          "채용박람회 → 면접 참여 증명 자료",
+          "민간 사이트 → 지원완료 화면 캡처 (휴대폰 저장 OK)",
+        ]}
+        note="1차 실업인정 때 담당자에게 필요 서류를 확인하면 가장 확실"
+      />
+    ),
+    "after-3": (
+      <TipAlert type="warning" title="이렇게 하면 불인정!">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>같은 사업장에만 반복 지원</li>
+          <li>전화·인터넷으로 탐문만 하고 실제 응모 안 함</li>
+          <li>채용 공고 없는 곳의 명함만 제출</li>
+          <li>본인 경력과 현저히 다른 직종에만 지원</li>
+        </ul>
+      </TipAlert>
+    ),
+  },
 };
 
 export function ArticleViz({
