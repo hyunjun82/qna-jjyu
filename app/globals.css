@@ -45,30 +45,21 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
-  /* 정부 녹색 팔레트 (law-jjyu 공통) */
-  --color-gov-50: #f0fdf4;
-  --color-gov-100: #dcfce7;
-  --color-gov-200: #bbf7d0;
-  --color-gov-500: #22c55e;
-  --color-gov-600: #16a34a;
-  --color-gov-700: #15803d;
-  --color-gov-800: #166534;
-  --color-gov-900: #14532d;
+  /* QnA 블루 팔레트 (gov-* 이름 유지하되 색상은 블루) */
+  --color-gov-50: #eff6ff;
+  --color-gov-100: #dbeafe;
+  --color-gov-200: #bfdbfe;
+  --color-gov-500: #3b82f6;
+  --color-gov-600: #2563eb;
+  --color-gov-700: #1d4ed8;
+  --color-gov-800: #1e40af;
+  --color-gov-900: #1e3a8a;
   /* 따뜻한 노란 팔레트 */
   --color-warm-50: #fefce8;
   --color-warm-100: #fef9c3;
   --color-warm-500: #eab308;
   --color-warm-600: #ca8a04;
   --color-warm-700: #a16207;
-  /* 파란 QnA 브랜딩 팔레트 */
-  --color-blue-50: #eff6ff;
-  --color-blue-100: #dbeafe;
-  --color-blue-200: #bfdbfe;
-  --color-blue-500: #3b82f6;
-  --color-blue-600: #2563eb;
-  --color-blue-700: #1d4ed8;
-  --color-blue-800: #1e40af;
-  --color-blue-900: #1e3a8a;
 }
 
 :root {

@@ -20,15 +20,15 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
 export default function HomePage() {
   return (
     <>
-      {/* Hero - 정부사이트 스타일 진한 녹색 */}
-      <section className="bg-[#1a4731] text-white py-14 md:py-20">
+      {/* Hero - 딥블루 스타일 */}
+      <section className="bg-[#0f1d3d] text-white py-14 md:py-20">
         <div className="mx-auto max-w-6xl px-4 text-center">
-          <p className="text-green-300 text-sm mb-3">공식 기관 자료 기반 생활 정보</p>
+          <p className="text-blue-300 text-sm mb-3">공식 기관 자료 기반 생활 정보</p>
           <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl leading-tight">
-            궁금한 <span className="text-yellow-200">생활 정보</span>,<br />
+            궁금한 <span className="text-amber-200">생활 정보</span>,<br />
             한눈에 해결하세요
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base text-green-100/80 md:text-lg">
+          <p className="mx-auto mt-4 max-w-xl text-base text-blue-100/80 md:text-lg">
             지원금, 세금, 연금, 부동산, 건강까지<br className="sm:hidden" />
             어려운 정보를 쉽고 정확하게 안내해 드립니다.
           </p>

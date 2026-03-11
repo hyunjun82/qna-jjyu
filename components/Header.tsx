@@ -28,7 +28,7 @@ export function Header() {
       <div className="bg-white border-b border-gray-200">
         <div className="mx-auto max-w-6xl px-4 flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gov-700 text-white">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gov-600 text-white">
               <HelpCircle className="h-5 w-5" />
             </div>
             <div className="flex flex-col">
