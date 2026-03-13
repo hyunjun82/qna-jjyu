@@ -203,6 +203,79 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+  "실업급여-지급일수-금액-계산-수급기간": {
+    top: (
+      <SimCalculator
+        title="실업급여 예상 수급액 계산기"
+        description="본인 정보를 입력하면 예상 총 수급액을 계산해드려요 (2026년 최저임금 10,320원 기준, 고용보험법 기준)"
+        fields={[
+          {
+            id: "age",
+            label: "퇴직 시 나이",
+            type: "select",
+            options: [
+              { label: "50세 미만", value: "0" },
+              { label: "50세 이상 또는 장애인", value: "1" },
+            ],
+          },
+          {
+            id: "period",
+            label: "고용보험 피보험기간",
+            type: "select",
+            options: [
+              { label: "1년 미만", value: "0" },
+              { label: "1년~3년", value: "1" },
+              { label: "3년~5년", value: "2" },
+              { label: "5년~10년", value: "3" },
+              { label: "10년 이상", value: "4" },
+            ],
+          },
+          {
+            id: "salary",
+            label: "월 급여 (세전)",
+            type: "number",
+            suffix: "만원",
+          },
+          {
+            id: "hours",
+            label: "1일 소정근로시간",
+            type: "number",
+            suffix: "시간",
+          },
+        ]}
+        formula="(function(){var d=[[120,150,180,210,240],[120,180,210,240,270]];var days=d[age][period];var avg=salary*10000/30;var b=avg*0.6;var mn=10320*0.8*hours;var mx=66000;var daily=Math.min(Math.max(b,mn),mx);return daily*days})()"
+        resultLabel="예상 총 수급액"
+        resultSuffix="원"
+      />
+    ),
+    "after-0": (
+      <BracketTable
+        title="나이·피보험기간별 실업급여 지급일수"
+        headers={["구분", "1년 미만", "1~3년", "3~5년", "5~10년", "10년 이상"]}
+        rows={[
+          { range: "50세 미만", values: ["120일", "150일", "180일", "210일", "240일"] },
+          { range: "50세 이상·장애인", values: ["120일", "180일", "210일", "240일", "270일"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ExampleBox
+        title="계산 예시"
+        scenario="56세, 월급 172만원(세전), 하루 5시간 근무, 1년 1개월 근무 후 퇴사"
+        result="평균임금 57,333원 → 60% = 34,400원 → 하한액(41,280원)보다 낮아서 하한액 적용. 50세 이상 + 1~3년 = 180일. 총 수급액: 41,280 × 180 = 7,430,400원"
+        source="고용보험법 기준, 2026년 최저임금 10,320원"
+      />
+    ),
+    "after-3": (
+      <GovernmentLink
+        links={[
+          { name: "고용24", description: "구직신청·실업급여 신청", url: "https://www.work.go.kr", urlLabel: "고용24 바로가기" },
+          { name: "고용노동부 상담센터", description: "실업급여 제도 상담", phone: "1350" },
+          { name: "고용24 시스템 문의", description: "전산 이용 관련", phone: "1577-7114" },
+        ]}
+      />
+    ),
+  },
   "실업급여-구직활동-실업인정-증빙서류": {
     top: (
       <QuickAnswerBox
