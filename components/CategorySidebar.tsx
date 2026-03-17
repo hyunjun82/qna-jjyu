@@ -11,15 +11,28 @@ export function CategorySidebar({ categorySlug, currentSlug }: CategorySidebarPr
   const hub = hubArticles[categorySlug];
   if (!hub) return null;
 
+  // 현재 글의 group 확인
+  const currentSpoke = hub.spokes.find((s) => s.slug === currentSlug);
+  const currentGroup = currentSpoke?.group;
+
+  // 같은 그룹 글만 표시 (그룹 없으면 그룹 없는 글끼리)
+  const visibleSpokes = hub.spokes.filter((s) =>
+    currentGroup ? s.group === currentGroup : !s.group
+  );
+
+  const isHiddenSupport = currentGroup === "숨은지원금";
+  const sidebarTitle = isHiddenSupport ? "🎁 숨은 정부지원금 17가지" : "관련 Q&A";
+  const allLinkText = isHiddenSupport ? "전체 지원금 보기" : "전체 Q&A 보기";
+
   return (
     <aside className="hidden lg:block w-64 shrink-0">
       <div className="sticky top-24">
         <nav className="rounded-xl border border-gray-200 bg-white p-4">
           <h3 className="text-sm font-bold text-gray-900 mb-3">
-            관련 Q&A
+            {sidebarTitle}
           </h3>
           <ul className="space-y-1">
-            {hub.spokes.map((spoke) => {
+            {visibleSpokes.map((spoke) => {
               const isCurrent = spoke.slug === currentSlug;
               return (
                 <li key={spoke.slug}>
@@ -49,7 +62,7 @@ export function CategorySidebar({ categorySlug, currentSlug }: CategorySidebarPr
               className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors"
             >
               <ChevronRight className="h-3.5 w-3.5 shrink-0 text-gray-300" />
-              전체 Q&A 보기
+              {allLinkText}
             </Link>
           </div>
         </nav>
