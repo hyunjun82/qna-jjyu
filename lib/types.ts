@@ -42,7 +42,7 @@ export interface HubArticle {
   metaDescription: string;
   description: string;
   heroDescription: string;
-  spokes: { slug: string; title: string; description: string }[];
+  spokes: { slug: string; title: string; description: string; group?: string }[];
   datePublished?: string;
   dateModified?: string;
 }

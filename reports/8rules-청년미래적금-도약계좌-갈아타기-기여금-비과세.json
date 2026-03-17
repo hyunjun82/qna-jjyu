@@ -1,0 +1,366 @@
+{
+  "slug": "청년미래적금-도약계좌-갈아타기-기여금-비과세",
+  "category": "지원금",
+  "timestamp": "2026-03-13T08:41:49.460Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 7,
+      "passed": 10,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[갈아타면 기여금이랑 비과세가 유지되나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[갈아타면 기여금이랑 비과세가 유지되나요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "[갈아타면 기여금이랑 비과세가 유지되나요?] P3 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[청년미래적금이 도약계좌보다 뭐가 좋은 건가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": false,
+          "detail": "[청년미래적금이 도약계좌보다 뭐가 좋은 건가요?] P2 조건어: 조건/예외 표현 없음"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "[청년미래적금이 도약계좌보다 뭐가 좋은 건가요?] P3 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[청년미래적금 가입 조건이 어떻게 되나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[청년미래적금 가입 조건이 어떻게 되나요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "[청년미래적금 가입 조건이 어떻게 되나요?] P3 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[갈아타기 전에 꼭 확인해야 할 것은요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": false,
+          "detail": "[갈아타기 전에 꼭 확인해야 할 것은요?] P2 조건어: 조건/예외 표현 없음"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[갈아타기 전에 꼭 확인해야 할 것은요?] P3 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] 구조화 테이블 OK"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 10% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": true,
+          "detail": "어미 연속 최대 2회 (2 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 1회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 32.7 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 날카로운 논리",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "출처 참조 밀도 2.0/섹션 (0.5 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 0건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 44자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": true,
+          "detail": "80자 초과 문장 2건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": true,
+          "detail": "쉼표 4개+ 문장 0건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 6,
+      "passed": 4,
+      "total": 7,
+      "items": [
+        {
+          "id": "6A",
+          "pass": false,
+          "detail": "기관/장소명 없음"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": false,
+          "detail": "서류 정보 없음"
+        },
+        {
+          "id": "6D",
+          "pass": false,
+          "detail": "화이트리스트 링크 0개"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 7,
+      "passed": 5,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": true,
+          "detail": "description 109자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 111자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": false,
+          "detail": "모호 표현 2건: 약 5, 약 2"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": true,
+          "detail": "verify-facts PASS"
+        },
+        {
+          "id": "7G",
+          "pass": false,
+          "detail": "verify-selfcheck FAIL:   [청년미래적금-도약계좌-갈아타기-기여금-비과세] 모순 가능성: \"비과세\" ↔ \"과세\" (1자 이내)"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (web-search-verified)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 신뢰도 OK"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 0일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": true,
+          "detail": "소스 숫자 일치 OK"
+        }
+      ]
+    }
+  ],
+  "average": 8.8,
+  "verdict": "FAIL",
+  "failedRules": [
+    "6. 문제해결 100%"
+  ]
+}

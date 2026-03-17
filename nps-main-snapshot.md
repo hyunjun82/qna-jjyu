@@ -1,0 +1,821 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - list:
+      - listitem:
+        - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+          - /url: "#contents"
+      - listitem:
+        - link "주메뉴 바로가기" [ref=e3] [cursor=pointer]:
+          - /url: "#gnav"
+      - listitem:
+        - link "푸터 바로가기" [ref=e4] [cursor=pointer]:
+          - /url: "#footer"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - paragraph [ref=e9]: 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - heading "NPS 국민연금 National Persion Service" [level=1] [ref=e15]:
+            - link "NPS 국민연금 National Persion Service" [ref=e16] [cursor=pointer]:
+              - /url: /main.do
+              - img "NPS 국민연금 National Persion Service" [ref=e17]
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "서식찾기" [ref=e22] [cursor=pointer]:
+                    - /url: /pnsinfo/databbs/getOHAF0279M0List.do?menuId=MN24000998
+                - listitem [ref=e23]:
+                  - link "지사찾기" [ref=e24] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ognzprsn/getOHAG0021M0.do?menuId=MN24001022
+                - listitem [ref=e25]:
+                  - link "사업장(EDI)" [ref=e26] [cursor=pointer]:
+                    - /url: https://edi.nps.or.kr
+              - button "Language" [ref=e28] [cursor=pointer]
+              - button "화면크기" [ref=e30] [cursor=pointer]
+            - link "로그인" [ref=e33] [cursor=pointer]:
+              - /url: /lgn/loginForm.do
+        - generic [ref=e35]:
+          - navigation [ref=e36]:
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "전자민원" [ref=e39] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000865','/elctcvlcpt/comm/getOHAC0000M2.do?menuId=MN24001593','전자민원','N');
+              - listitem [ref=e40]:
+                - link "국민참여" [ref=e41] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000866','/cmuctjng/custdscsn/getOHAD0002M0List.do?menuId=MN24000947','국민참여','N');
+              - listitem [ref=e42]:
+                - link "정보공개" [ref=e43] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000864','/inforls/inforlsgdnc/getOHAB0006M0.do?menuId=MN24000924','정보공개','N');
+              - listitem [ref=e44]:
+                - link "연금소식" [ref=e45] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000867','/pnsgdnc/newgdnc/getOHAE0001M0List.do?menuId=MN24000897','연금소식','N');
+              - listitem [ref=e46]:
+                - link "연금정보" [ref=e47] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000868','/pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24001103','연금정보','N');
+              - listitem [ref=e48]:
+                - link "공단소개" [ref=e49] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000869','/pbcpgdnc/cmbd/getOHAG0001M0.do?menuId=MN24001013','공단소개','N');
+          - link "전체메뉴" [ref=e50] [cursor=pointer]:
+            - /url: "#header-allmenu"
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - link "국민연금 직원 사칭 사기 주의! 공단은 전화나 문자로 계약을 진행하지 않습니다. 개인 휴대전화로 금전, 물품을 요구하지 않습니다." [ref=e58] [cursor=pointer]:
+                - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202500000000000489
+                - heading "국민연금 직원 사칭 사기 주의!" [level=2] [ref=e59]
+                - paragraph [ref=e60]:
+                  - text: 공단은
+                  - strong [ref=e61]: 전화나 문자로 계약
+                  - text: 을 진행하지 않습니다.
+                  - strong [ref=e62]: 개인 휴대전화로 금전, 물품
+                  - text: 을 요구하지 않습니다.
+              - img "100세 시대, 국민의 든든한 평생 파트너 국민연금공단 운용지원실 김동주 대리 대구지역본부 대구 달서구 이곡동 1198-5 국민연금 대구회관 건물 2층 Mobile 010-7963- FAX.0504-403- E-mail rlsehdwn @ NPS" [ref=e65]
+            - generic [ref=e66]:
+              - link "2025년 말 기준 국민연금기금 운용수익률 18.82% 1988년 국민연금 기금 설치 이후 가장 높은 수익률 달성! 자세히 보기 >>" [ref=e68] [cursor=pointer]:
+                - /url: https://www.npsonair.kr/fund_management/detail.html?strIdx=3800&strPage=1
+                - heading "2025년 말 기준 국민연금기금 운용수익률 18.82%" [level=2] [ref=e69]:
+                  - text: 2025년 말 기준
+                  - generic [ref=e70]:
+                    - strong [ref=e71]: 국민연금기금
+                    - strong [ref=e72]: 운용수익률 18.82%
+                - paragraph [ref=e73]:
+                  - generic [ref=e74]:
+                    - text: 1988년 국민연금 기금 설치 이후
+                    - strong [ref=e76]: 가장 높은 수익률 달성!
+                    - text: 자세히 보기 >>
+              - img "2025년 연간 수익률 18.82% 금액가중수익률, 잠정 수익금 231.6조원 -기금설치 후(1988~2025) 수익률 8.04% 수익금 969.3조원" [ref=e79]
+            - link "2026년 국민연금, 이렇게 달라집니다 ㅇ 보험료율 9% → 9.5% *지속가능성 강화 ㅇ 소득대체율 41.5% → 43% *노후소득강화 ㅇ 국가지급보장 명문화 *국민신뢰제고 청년층을 위한 크레딧 확대, 저소득층 보험료 부담 경감을 위한 지역가입자 보험료 지원대상 확대까지 자세히 보기 >>" [ref=e82] [cursor=pointer]:
+              - /url: https://www.npsonair.kr/finance/detail.html?strIdx=3503&strPage=3
+              - heading "2026년 국민연금, 이렇게 달라집니다" [level=2] [ref=e83]
+              - paragraph [ref=e84]:
+                - generic [ref=e85]:
+                  - text: ㅇ
+                  - strong [ref=e86]: 보험료율 9% → 9.5%
+                  - text: "*지속가능성 강화"
+                  - text: ㅇ
+                  - strong [ref=e87]: 소득대체율 41.5% → 43%
+                  - text: "*노후소득강화"
+                  - text: ㅇ
+                  - strong [ref=e88]: 국가지급보장 명문화
+                  - text: "*국민신뢰제고"
+                  - text: 청년층을 위한
+                  - strong [ref=e89]: 크레딧 확대,
+                - text: 저소득층 보험료 부담 경감을 위한
+                - strong [ref=e90]: 지역가입자 보험료 지원대상 확대
+                - text: 까지
+                - generic [ref=e91]: 자세히 보기 >>
+            - link "2026년 국민연금액 2.1% 인상 국민 여러분의 더욱 든든한 노후를 응원합니다! 국민연금액 인상 내역은 홈페이지를 통해 조회 및 출력 가능합니다. * 연금 인상 상세 내용은 국민비서(구삐), 이메일, 우편, 카카오 인증톡, 문자(LMS)를 활용하여 안내해 드릴 예정입니다. 자세히 보기 >>" [ref=e96] [cursor=pointer]:
+              - /url: https://nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000024&hmpgCd=01&hmpgBbsCd=BS20240137&sortSe=FR&pageIndex=1&searchText=&searchGbu=
+              - heading "2026년 국민연금액 2.1% 인상" [level=2] [ref=e97]:
+                - generic [ref=e98]:
+                  - text: 2026년 국민연금액
+                  - strong [ref=e99]: 2.1% 인상
+              - paragraph [ref=e100]:
+                - strong [ref=e101]:
+                  - text: 국민 여러분의 더욱 든든한 노후를 응원합니다!
+                  - text: 국민연금액 인상 내역은 홈페이지를 통해 조회 및 출력 가능합니다.
+                - generic [ref=e102]:
+                  - text: "* 연금 인상 상세 내용은"
+                  - text: 국민비서(구삐), 이메일, 우편, 카카오 인증톡, 문자(LMS)를
+                  - text: 활용하여 안내해 드릴 예정입니다.
+                - text: 자세히 보기 >>
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - heading "압류 걱정 없는 ‘국민연금 안심통장’, 월 입금한도가 250만원으로 확대됩니다." [level=2] [ref=e107]:
+                  - generic [ref=e108]: 압류 걱정 없는 ‘국민연금 안심통장’,
+                  - generic [ref=e109]:
+                    - text: 월 입금한도가
+                    - strong [ref=e110]: 250만원으로 확대
+                    - text: 됩니다.
+                - paragraph [ref=e111]:
+                  - generic [ref=e112]:
+                    - text: 2026년 2월부터 「민사집행법」 개정으로
+                    - text: 국민연금 압류금지 금액이
+                    - strong [ref=e113]: 기존 185만원에서 250만원으로 상향
+              - img "2,500,000원" [ref=e116]
+            - generic [ref=e117]:
+              - link "국민연금 직원 사칭 사기 주의! 공단은 전화나 문자로 계약을 진행하지 않습니다. 개인 휴대전화로 금전, 물품을 요구하지 않습니다." [ref=e119] [cursor=pointer]:
+                - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202500000000000489
+                - heading "국민연금 직원 사칭 사기 주의!" [level=2] [ref=e120]
+                - paragraph [ref=e121]:
+                  - text: 공단은
+                  - strong [ref=e122]: 전화나 문자로 계약
+                  - text: 을 진행하지 않습니다.
+                  - strong [ref=e123]: 개인 휴대전화로 금전, 물품
+                  - text: 을 요구하지 않습니다.
+              - img "100세 시대, 국민의 든든한 평생 파트너 국민연금공단 운용지원실 김동주 대리 대구지역본부 대구 달서구 이곡동 1198-5 국민연금 대구회관 건물 2층 Mobile 010-7963- FAX.0504-403- E-mail rlsehdwn @ NPS" [ref=e126]
+            - generic [ref=e127]:
+              - link "2025년 말 기준 국민연금기금 운용수익률 18.82% 1988년 국민연금 기금 설치 이후 가장 높은 수익률 달성! 자세히 보기 >>" [ref=e129] [cursor=pointer]:
+                - /url: https://www.npsonair.kr/fund_management/detail.html?strIdx=3800&strPage=1
+                - heading "2025년 말 기준 국민연금기금 운용수익률 18.82%" [level=2] [ref=e130]:
+                  - text: 2025년 말 기준
+                  - generic [ref=e131]:
+                    - strong [ref=e132]: 국민연금기금
+                    - strong [ref=e133]: 운용수익률 18.82%
+                - paragraph [ref=e134]:
+                  - generic [ref=e135]:
+                    - text: 1988년 국민연금 기금 설치 이후
+                    - strong [ref=e137]: 가장 높은 수익률 달성!
+                    - text: 자세히 보기 >>
+              - img "2025년 연간 수익률 18.82% 금액가중수익률, 잠정 수익금 231.6조원 -기금설치 후(1988~2025) 수익률 8.04% 수익금 969.3조원" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: 2 / 5
+            - generic [ref=e143]:
+              - button "팝업존 자동움직임 멈춤" [ref=e144] [cursor=pointer]
+              - button "배너존 이전 배너" [ref=e145] [cursor=pointer]: 팝업존 이전 배너
+              - button "배너존 다음 배너" [ref=e146] [cursor=pointer]: 팝업존 다음 배너
+              - link "배너존 배너 모아보기" [ref=e147] [cursor=pointer]:
+                - /url: "#popBannerList"
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "소식ㆍ정보" [level=3] [ref=e151]
+            - tablist [ref=e153]:
+              - tab "새소식" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: 새소식
+              - tab "보도자료" [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: 보도자료
+              - tab "홍보센터" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: 홍보센터
+              - tab "채용공고" [ref=e160] [cursor=pointer]:
+                - generic [ref=e161]: 채용공고
+            - tabpanel "새소식" [ref=e163]:
+              - heading "새소식" [level=4] [ref=e165]
+              - list [ref=e166]:
+                - listitem [ref=e167]:
+                  - link "2026년도 국민연금 기준소득월액 상·하한액 조정 안내 2026-02-13" [ref=e168] [cursor=pointer]:
+                    - /url: javascript:fnc_newsInfoDetail('ZZ202600000000000147','BS20240137','01','MN24000897');
+                    - paragraph [ref=e169]: 2026년도 국민연금 기준소득월액 상·하한액 조정 안내
+                    - generic [ref=e170]: 2026-02-13
+                - listitem [ref=e171]:
+                  - link "제18기 국민연금 대학생 홍보대사팀 모집 2026-03-05" [ref=e172] [cursor=pointer]:
+                    - /url: javascript:fnc_newsInfoDetail('ZZ202600000000000208','BS20240137','01','MN24000897');
+                    - paragraph [ref=e173]: 제18기 국민연금 대학생 홍보대사팀 모집
+                    - generic [ref=e174]: 2026-03-05
+                - listitem [ref=e175]:
+                  - link "비대면채널(홈페이지 및 모바일앱)을 통한 추납 신청 관련 안내 2025-12-29" [ref=e176] [cursor=pointer]:
+                    - /url: javascript:fnc_newsInfoDetail('ZZ202500000000001593','BS20240137','01','MN24000897');
+                    - paragraph [ref=e177]: 비대면채널(홈페이지 및 모바일앱)을 통한 추납 신청 관련 안내
+                    - generic [ref=e178]: 2025-12-29
+              - link "새소식 더보기" [ref=e179] [cursor=pointer]:
+                - /url: /pnsgdnc/newgdnc/getOHAE0001M0List.do?menuId=MN24000897
+                - generic [ref=e180]: 새소식
+                - text: 더보기
+          - generic [ref=e181]:
+            - heading "자주 찾는 서비스" [level=3] [ref=e182]
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - link "내 국민연금 알아보기" [ref=e185] [cursor=pointer]:
+                  - /url: /comm/quick/getOHAH0011M0.do
+                  - generic [ref=e187]:
+                    - text: 내 국민연금
+                    - text: 알아보기
+              - listitem [ref=e188]:
+                - link "지사찾기" [ref=e189] [cursor=pointer]:
+                  - /url: /pbcpgdnc/ognzprsn/getOHAG0021M0.do
+                  - generic [ref=e191]: 지사찾기
+              - listitem [ref=e192]:
+                - link "서식찾기" [ref=e193] [cursor=pointer]:
+                  - /url: /pnsinfo/databbs/getOHAF0279M0List.do?menuId=MN24000998
+                  - generic [ref=e195]: 서식찾기
+              - listitem [ref=e196]:
+                - link "4대보험료 계산기" [ref=e197] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e199]:
+                    - text: 4대보험료
+                    - text: 계산기
+              - listitem [ref=e200]:
+                - link "알기쉬운 국민연금" [ref=e201] [cursor=pointer]:
+                  - /url: /pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24000982
+                  - generic [ref=e203]:
+                    - text: 알기쉬운
+                    - text: 국민연금
+              - listitem [ref=e204]:
+                - link "웹팩스 수신조회" [ref=e205] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e207]:
+                    - text: 웹팩스
+                    - text: 수신조회
+              - listitem [ref=e208]:
+                - link "국민연금 통계" [ref=e209] [cursor=pointer]:
+                  - /url: /pnsinfo/statistics/getOHAF0111M0.do?menuId=MN24000989
+                  - generic [ref=e211]:
+                    - text: 국민연금
+                    - text: 통계
+              - listitem [ref=e212]:
+                - link "채팅상담" [ref=e213] [cursor=pointer]:
+                  - /url: javascript:fnOpenBrws('https://chat.nps.or.kr/front/v1/jsp/view/chatWindow.jsp?onlyTalk=Y','_blank','width=700,height=750,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+                  - generic [ref=e215]: 채팅상담
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - paragraph [ref=e218]: 개인
+            - button "사업장" [ref=e219] [cursor=pointer]
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "예상연금액 조회" [ref=e222] [cursor=pointer]:
+                - /url: javascript:setSsoCookie('https://csa.nps.or.kr/ohkd/ntpsidnty/anpninq/UHKD7101M0.do');
+            - listitem [ref=e223]:
+              - link "가입증명서" [ref=e224] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001054', '/elctcvlcpt/cfdcissu/getOHAC0020M0.do', '가입증명서','N');
+            - listitem [ref=e225]:
+              - link "연금/일시금 청구" [ref=e226] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001074','/elctcvlcpt/dclraply/getOHAC0040M0.do','연금/일시금 청구','N');
+            - listitem [ref=e227]:
+              - link "보험료 납부내역 조회" [ref=e228] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001055','/elctcvlcpt/cfdcissu/getOHAC0021M0.do','연금산정용 가입내역 확인서(국/영문)','N');
+            - listitem [ref=e229]:
+              - link "연금산정용 가입내역" [ref=e230] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001055', '/elctcvlcpt/cfdcissu/getOHAC0021M0.do', '연금산정용 가입내역 확인서','N');
+            - listitem [ref=e231]:
+              - link "연금 지급내역 증명서" [ref=e232] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001056','/elctcvlcpt/cfdcissu/getOHAC0022M0.do','국민연금 수급증명(지급내역) (국/영문)','N');
+            - listitem [ref=e233]:
+              - link "수급자 계좌번호 변경" [ref=e234] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001077','/elctcvlcpt/dclraply/getOHAC0043M0.do','연금수급자 계좌번호 변경','N');
+            - listitem [ref=e235]:
+              - link "추납보험료 납부 신청" [ref=e236] [cursor=pointer]:
+                - /url: javascript:goMenuPage('MN24001072','/elctcvlcpt/dclraply/getOHAC0038M0.do','추납보험료 납부 신청','N');
+      - generic [ref=e237]:
+        - heading "어떤 도움이 필요하세요?" [level=3] [ref=e238]
+        - group "통합검색" [ref=e241]:
+          - generic: 통합검색
+          - generic [ref=e243]:
+            - textbox "검색어" [ref=e245]:
+              - /placeholder: 검색어를 입력해주세요
+            - button "검색어 삭제" [ref=e246] [cursor=pointer]
+            - button "검색" [ref=e247] [cursor=pointer]
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - heading "홈페이지에서 자주 이용하는 메뉴들을 모아봤습니다!" [level=4] [ref=e250]
+            - paragraph [ref=e251]: 바로가기 버튼을 누르시면 해당 서비스로 바로 연결돼요
+          - button "qna 이전 배너" [ref=e252] [cursor=pointer]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - generic [ref=e256]:
+                - generic [ref=e257]: 서비스
+                - paragraph [ref=e258]: 궁금한 점을 자세하게 상담받고 싶어요!
+                - generic [ref=e259]:
+                  - link "실시간 채팅상담" [ref=e260] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('https://chat.nps.or.kr/front/v1/jsp/view/chatWindow.jsp?onlyTalk=Y','_blank','width=700,height=750,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+                  - link "문의 글 작성" [ref=e261] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24000947','/cmuctjng/custdscsn/getOHAD0002M0List.do','고객상담실','N');
+            - listitem [ref=e262]:
+              - generic [ref=e263]:
+                - generic [ref=e264]: 제도
+                - paragraph [ref=e265]: 국민연금에 대해 더 자세히 알아보고 싶어요!
+                - generic [ref=e266]:
+                  - link "국민연금 주요사업" [ref=e267] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001567','/pbcpgdnc/mainbiz/getOHAG0058M0.do?menuId=MN24001568','주요사업','N');
+                  - link "알기쉬운 국민연금" [ref=e268] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24000904','/pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24001103','알기쉬운 국민연금','N');
+            - listitem [ref=e269]:
+              - generic [ref=e270]:
+                - generic [ref=e271]: 신고/신청
+                - paragraph [ref=e272]: 연금을 받을 나이가 되어 연금을 신청하고 싶어요
+                - generic [ref=e273]:
+                  - link "연금/일시금 청구" [ref=e274] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001074','/elctcvlcpt/dclraply/getOHAC0040M0.do','연금/일시금 청구','N');
+                  - link "연금수급자 계좌번호 변경" [ref=e275] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001077','/elctcvlcpt/dclraply/getOHAC0043M0.do','연금수급자 계좌번호 변경','N');
+            - listitem [ref=e276]:
+              - generic [ref=e277]:
+                - generic [ref=e278]: 연금
+                - paragraph [ref=e279]:
+                  - text: 나는 연금을 얼마나
+                  - text: 받을 수 있는지 궁금해요!
+                - generic [ref=e280]:
+                  - link "예상연금액 간단계산해보기" [ref=e281] [cursor=pointer]:
+                    - /url: javascript:setSsoCookie('https://csa.nps.or.kr/ohkd/ntpsidnty/anpnctng/UHKD7701M0.do');
+                  - link "나의 예상연금액 알아보기" [ref=e282] [cursor=pointer]:
+                    - /url: javascript:setSsoCookie('https://csa.nps.or.kr/ohkd/ntpsidnty/anpninq/UHKD7101M0.do');
+            - listitem [ref=e283]:
+              - generic [ref=e284]:
+                - generic [ref=e285]: 조회/증명서
+                - paragraph [ref=e286]: 내가 국민연금을 납부한 이력을 확인하고 싶어요!
+                - generic [ref=e287]:
+                  - link "가입증명서 발급하기" [ref=e288] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001054','/elctcvlcpt/cfdcissu/getOHAC0020M0.do','가입증명서(국/영문)','N');
+                  - link "가입내역 조회" [ref=e289] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001035','/elctcvlcpt/inquiry/getOHAC0001M0.do','가입내역조회','N');
+            - listitem [ref=e290]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: 보험료 납부
+                - paragraph [ref=e293]: 국민연금 보험료를 납부하고 싶어요!
+                - generic [ref=e294]:
+                  - link "국민연금 보험료 납부" [ref=e295] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - link "반납금/추납보험료 납부" [ref=e296] [cursor=pointer]:
+                    - /url: https://anypay.nps.or.kr
+            - listitem [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]: 서비스
+                - paragraph [ref=e300]: 궁금한 점을 자세하게 상담받고 싶어요!
+                - generic [ref=e301]:
+                  - link "실시간 채팅상담" [ref=e302] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('https://chat.nps.or.kr/front/v1/jsp/view/chatWindow.jsp?onlyTalk=Y','_blank','width=700,height=750,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+                  - link "문의 글 작성" [ref=e303] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24000947','/cmuctjng/custdscsn/getOHAD0002M0List.do','고객상담실','N');
+            - listitem [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e306]: 제도
+                - paragraph [ref=e307]: 국민연금에 대해 더 자세히 알아보고 싶어요!
+                - generic [ref=e308]:
+                  - link "국민연금 주요사업" [ref=e309] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001567','/pbcpgdnc/mainbiz/getOHAG0058M0.do?menuId=MN24001568','주요사업','N');
+                  - link "알기쉬운 국민연금" [ref=e310] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24000904','/pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24001103','알기쉬운 국민연금','N');
+            - listitem [ref=e311]:
+              - generic [ref=e312]:
+                - generic [ref=e313]: 신고/신청
+                - paragraph [ref=e314]: 연금을 받을 나이가 되어 연금을 신청하고 싶어요
+                - generic [ref=e315]:
+                  - link "연금/일시금 청구" [ref=e316] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001074','/elctcvlcpt/dclraply/getOHAC0040M0.do','연금/일시금 청구','N');
+                  - link "연금수급자 계좌번호 변경" [ref=e317] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001077','/elctcvlcpt/dclraply/getOHAC0043M0.do','연금수급자 계좌번호 변경','N');
+            - listitem [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]: 연금
+                - paragraph [ref=e321]:
+                  - text: 나는 연금을 얼마나
+                  - text: 받을 수 있는지 궁금해요!
+                - generic [ref=e322]:
+                  - link "예상연금액 간단계산해보기" [ref=e323] [cursor=pointer]:
+                    - /url: javascript:setSsoCookie('https://csa.nps.or.kr/ohkd/ntpsidnty/anpnctng/UHKD7701M0.do');
+                  - link "나의 예상연금액 알아보기" [ref=e324] [cursor=pointer]:
+                    - /url: javascript:setSsoCookie('https://csa.nps.or.kr/ohkd/ntpsidnty/anpninq/UHKD7101M0.do');
+            - listitem [ref=e325]:
+              - generic [ref=e326]:
+                - generic [ref=e327]: 조회/증명서
+                - paragraph [ref=e328]: 내가 국민연금을 납부한 이력을 확인하고 싶어요!
+                - generic [ref=e329]:
+                  - link "가입증명서 발급하기" [ref=e330] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001054','/elctcvlcpt/cfdcissu/getOHAC0020M0.do','가입증명서(국/영문)','N');
+                  - link "가입내역 조회" [ref=e331] [cursor=pointer]:
+                    - /url: javascript:goMenuPage('MN24001035','/elctcvlcpt/inquiry/getOHAC0001M0.do','가입내역조회','N');
+            - listitem [ref=e332]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: 보험료 납부
+                - paragraph [ref=e335]: 국민연금 보험료를 납부하고 싶어요!
+                - generic [ref=e336]:
+                  - link "국민연금 보험료 납부" [ref=e337] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - link "반납금/추납보험료 납부" [ref=e338] [cursor=pointer]:
+                    - /url: https://anypay.nps.or.kr
+          - button "qna 다음 배너" [ref=e339] [cursor=pointer]
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - link "가입자용 가이드북" [ref=e342] [cursor=pointer]:
+              - /url: javascript:fnOpenBrws('/html/download/memberGuide.pdf','_blank','')
+            - link "수급자용 가이드북" [ref=e343] [cursor=pointer]:
+              - /url: https://pensioner.nps.or.kr/html/pensioner/ebook/pensioner_guide.html
+          - generic [ref=e344]:
+            - strong [ref=e345]: 자주찾는 질문(FAQ)
+            - paragraph [ref=e346]:
+              - text: 국민연금에 대해 궁금한 사항을
+              - text: 친절히 안내해 드릴게요.
+            - link "바로가기" [ref=e347] [cursor=pointer]:
+              - /url: javascript:goMenuPage('MN24000987','/pnsinfo/ntpsklg/getOHAF0095M0.do?menuId=MN24001131','자주찾는 질문(FAQ)','N');
+            - link "전자책" [ref=e348] [cursor=pointer]:
+              - /url: https://www.nps.or.kr/html/Ebook/2025_FAQ/index.html
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: 장애인 & 복지 서비스
+            - link "더보기" [ref=e351] [cursor=pointer]:
+              - /url: javascript:goMenuPage('MN24001569','/pbcpgdnc/mainbiz/getOHAG0059M0.do','복지 서비스','N');
+            - generic [ref=e352]:
+              - link "장애심사사업 안내" [ref=e353] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('/das/main.do','_blank','')
+              - link "장애인 활동지원" [ref=e354] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('https://www.ableservice.or.kr/','_blank','')
+              - link "기초수급자 근로능력평가" [ref=e355] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('/comm/pop/getOHAH0015P0.do','_blank','width=980,height=725,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+              - link "기초연금" [ref=e356] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('/comm/pop/getOHAH0015P1.do','_blank','width=1020,height=760,toolbar=no,menubar=no,,scrollbars=yes,resizable=no,location=no,directories=no,status=no')
+          - generic [ref=e357]:
+            - tablist [ref=e359]:
+              - tab "온에어" [ref=e360] [cursor=pointer]
+              - tab "블로그" [ref=e361] [cursor=pointer]
+              - tab "유튜브" [ref=e362] [cursor=pointer]
+              - tab "인스타그램" [ref=e363] [cursor=pointer]
+            - tabpanel "온에어" [ref=e365]:
+              - heading "온에어" [level=4] [ref=e367]
+              - link "국민연금 온에어 한 눈에 확인하는 국민연금 SNS콘텐츠" [ref=e368] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('https://www.npsonair.kr/','_blank','')
+                - generic:
+                  - img "국민연금 온에어 한 눈에 확인하는 국민연금 SNS콘텐츠"
+      - generic [ref=e369]:
+        - heading "국민연금 현황을 자세히 알려드려요" [level=3] [ref=e370]
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - heading "현황" [level=4] [ref=e373]
+            - tablist [ref=e375]:
+              - tab "기금" [ref=e376] [cursor=pointer]
+              - tab "가입자" [ref=e377] [cursor=pointer]
+              - tab "수급자" [ref=e378] [cursor=pointer]
+            - tabpanel "기금" [ref=e380]:
+              - heading "기금" [level=4] [ref=e382]
+              - generic [ref=e383]:
+                - paragraph [ref=e386]: "기금 적립금 현황: 2007년 219.5조원, 2015년 512.3조원, 2019년 736.6조원, 2025년 2월 1227.5조원"
+                - list [ref=e387]:
+                  - listitem [ref=e388]:
+                    - generic [ref=e389]: 조성
+                    - generic [ref=e390]: 1,892.4조 원
+                  - listitem [ref=e391]:
+                    - generic [ref=e392]: 지출
+                    - generic [ref=e393]: 434.4조 원
+                  - listitem [ref=e394]:
+                    - generic [ref=e395]: 적립금
+                    - generic [ref=e396]: 1,458조 원
+              - link "기금현황 더보기" [ref=e397] [cursor=pointer]:
+                - /url: /pnsinfo/statistics/getOHAF0117M0.do?menuId=MN24001603
+                - generic [ref=e398]: 기금현황
+                - text: 더보기
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - heading "공단소개 공단소개 더보기" [level=4] [ref=e401]:
+                - text: 공단소개
+                - link "공단소개 더보기" [ref=e402] [cursor=pointer]:
+                  - /url: /pbcpgdnc/mainbiz/getOHAG0058M0.do?menuId=MN24001568
+                  - generic [ref=e403]: 공단소개
+                  - text: 더보기
+              - paragraph [ref=e404]:
+                - text: 지속가능한 연금과 복지서비스로 국민의 생활 안정과
+                - text: 행복한 삶에 기여하도록 노력하고 있습니다.
+              - button "공단소개 이전슬라이드" [ref=e405] [cursor=pointer]
+              - list [ref=e407]:
+                - listitem [ref=e408]:
+                  - link "비전 및 전략" [ref=e409] [cursor=pointer]:
+                    - /url: /pbcpgdnc/mertstgy/getOHAG0007M0.do?menuId=MN24001018
+                - listitem [ref=e410]:
+                  - link "가입 및 급여 통계" [ref=e411] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0111M0.do?menuId=MN24000989
+                - listitem [ref=e412]:
+                  - link "기금운용통계" [ref=e413] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0117M0.do?menuId=MN24001603
+                - listitem [ref=e414]:
+                  - link "전국연금 지급통계" [ref=e415] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('/pnsinfo/statistics/getOHAF0119M0.do','_blank','')
+                - listitem [ref=e416]:
+                  - link "연금수급자 기네스" [ref=e417] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0120M0.do?menuId=MN24000991
+                - listitem [ref=e418]:
+                  - link "연혁 및 CI" [ref=e419] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ci/getOHAG0009M0.do?menuId=MN24000914
+                - listitem [ref=e420]:
+                  - link "조직 및 인원" [ref=e421] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ognzprsn/getOHAG0011M0.do?menuId=MN24001021
+                - listitem [ref=e422]:
+                  - link "경영공시" [ref=e423] [cursor=pointer]:
+                    - /url: /pbcpgdnc/bzadpblnt/getOHAG0023M0.do?menuId=MN24001024
+                - listitem [ref=e424]:
+                  - link "지사찾기" [ref=e425] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ognzprsn/getOHAG0012M0.do?menuId=MN24001022
+                - listitem [ref=e426]:
+                  - link "비전 및 전략" [ref=e427] [cursor=pointer]:
+                    - /url: /pbcpgdnc/mertstgy/getOHAG0007M0.do?menuId=MN24001018
+                - listitem [ref=e428]:
+                  - link "가입 및 급여 통계" [ref=e429] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0111M0.do?menuId=MN24000989
+                - listitem [ref=e430]:
+                  - link "기금운용통계" [ref=e431] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0117M0.do?menuId=MN24001603
+                - listitem [ref=e432]:
+                  - link "전국연금 지급통계" [ref=e433] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('/pnsinfo/statistics/getOHAF0119M0.do','_blank','')
+                - listitem [ref=e434]:
+                  - link "연금수급자 기네스" [ref=e435] [cursor=pointer]:
+                    - /url: /pnsinfo/statistics/getOHAF0120M0.do?menuId=MN24000991
+                - listitem [ref=e436]:
+                  - link "연혁 및 CI" [ref=e437] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ci/getOHAG0009M0.do?menuId=MN24000914
+                - listitem [ref=e438]:
+                  - link "조직 및 인원" [ref=e439] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ognzprsn/getOHAG0011M0.do?menuId=MN24001021
+                - listitem [ref=e440]:
+                  - link "경영공시" [ref=e441] [cursor=pointer]:
+                    - /url: /pbcpgdnc/bzadpblnt/getOHAG0023M0.do?menuId=MN24001024
+                - listitem [ref=e442]:
+                  - link "지사찾기" [ref=e443] [cursor=pointer]:
+                    - /url: /pbcpgdnc/ognzprsn/getOHAG0012M0.do?menuId=MN24001022
+                - listitem [ref=e444]:
+                  - link "비전 및 전략" [ref=e445] [cursor=pointer]:
+                    - /url: /pbcpgdnc/mertstgy/getOHAG0007M0.do?menuId=MN24001018
+              - button "공단소개 다음슬라이드" [ref=e446] [cursor=pointer]
+            - generic [ref=e447]:
+              - heading "국민연금 알아보기 국민연금 알아보기 더보기" [level=4] [ref=e448]:
+                - text: 국민연금 알아보기
+                - link "국민연금 알아보기 더보기" [ref=e449] [cursor=pointer]:
+                  - /url: javascript:goMenuPage('MN24000904','/pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24001103','알기쉬운 국민연금','N');
+                  - generic [ref=e450]: 국민연금 알아보기
+                  - text: 더보기
+              - paragraph [ref=e451]:
+                - text: 연금과 복지로 세대를 이어 행복을 더하는 글로벌 리딩 연금기관이라는
+                - text: 비전을 갖고 있습니다.
+              - button "국민연금 알아보기 이전슬라이드" [ref=e452] [cursor=pointer]
+              - list [ref=e454]:
+                - listitem [ref=e455]:
+                  - link "두루누리" [ref=e456] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('http://insurancesupport.or.kr/home/start.php','_blank','')
+                - listitem [ref=e457]:
+                  - link "연금종류 및 청구" [ref=e458] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0048M0.do?menuId=MN24001117
+                - listitem [ref=e459]:
+                  - link "연금보험료" [ref=e460] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113
+                - listitem [ref=e461]:
+                  - link "반환일시금 반납" [ref=e462] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0046M0.do?menuId=MN24001115
+                - listitem [ref=e463]:
+                  - link "추후납부" [ref=e464] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116
+                - listitem [ref=e465]:
+                  - link "국민연금 제도" [ref=e466] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24000982
+                - listitem [ref=e467]:
+                  - link "가입유형" [ref=e468] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0005M0.do?menuId=MN24001106
+                - listitem [ref=e469]:
+                  - link "사업장가입자" [ref=e470] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0016M0.do?menuId=MN24001108
+                - listitem [ref=e471]:
+                  - link "지역가입자" [ref=e472] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0021M0.do?menuId=MN24001109
+                - listitem [ref=e473]:
+                  - link "두루누리" [ref=e474] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('http://insurancesupport.or.kr/home/start.php','_blank','')
+                - listitem [ref=e475]:
+                  - link "연금종류 및 청구" [ref=e476] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0048M0.do?menuId=MN24001117
+                - listitem [ref=e477]:
+                  - link "연금보험료" [ref=e478] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0038M0.do?menuId=MN24001113
+                - listitem [ref=e479]:
+                  - link "반환일시금 반납" [ref=e480] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0046M0.do?menuId=MN24001115
+                - listitem [ref=e481]:
+                  - link "추후납부" [ref=e482] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0047M0.do?menuId=MN24001116
+                - listitem [ref=e483]:
+                  - link "국민연금 제도" [ref=e484] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0001M0.do?menuId=MN24000982
+                - listitem [ref=e485]:
+                  - link "가입유형" [ref=e486] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0005M0.do?menuId=MN24001106
+                - listitem [ref=e487]:
+                  - link "사업장가입자" [ref=e488] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0016M0.do?menuId=MN24001108
+                - listitem [ref=e489]:
+                  - link "지역가입자" [ref=e490] [cursor=pointer]:
+                    - /url: /pnsinfo/ntpsklg/getOHAF0021M0.do?menuId=MN24001109
+                - listitem [ref=e491]:
+                  - link "두루누리" [ref=e492] [cursor=pointer]:
+                    - /url: javascript:fnOpenBrws('http://insurancesupport.or.kr/home/start.php','_blank','')
+              - button "국민연금 알아보기 다음슬라이드" [ref=e493] [cursor=pointer]
+      - generic [ref=e494]:
+        - heading "다양한 연금소식을 확인해 보세요!" [level=3] [ref=e499]
+        - generic [ref=e500]:
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - heading "카드뉴스" [level=2] [ref=e503]
+              - generic [ref=e504]:
+                - generic [ref=e505]: 2 / 3
+                - generic [ref=e506]:
+                  - button "카드뉴스 이전 배너" [ref=e507] [cursor=pointer]
+                  - button "카드뉴스 자동움직임 멈춤" [ref=e508] [cursor=pointer]
+                  - button "카드뉴스 다음 배너" [ref=e509] [cursor=pointer]
+            - generic [ref=e512]:
+              - link "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다." [ref=e514] [cursor=pointer]:
+                - /url: https://www.npsonair.kr/advantages/detail.html?&strIdx=3744
+                - img "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다." [ref=e515]
+              - link "2026년도 새롭게 달라지는 국민연금 병오년 새해를 맞아 올해부터 바뀌는 국민연금 제도를 소개합니다!" [ref=e517] [cursor=pointer]:
+                - /url: " https://www.npsonair.kr/advantages/detail.html?strIdx=3769&strPage=1"
+                - img "2026년도 새롭게 달라지는 국민연금 병오년 새해를 맞아 올해부터 바뀌는 국민연금 제도를 소개합니다!" [ref=e518]
+              - link "NPS국민연금공단 2.1% 2026년 연금액 인상 국민 여러분의 더 든든한 노후를 응원합니다!" [ref=e520] [cursor=pointer]:
+                - /url: https://www.npsonair.kr/advantages/detail.html?&strIdx=3762
+                - img "NPS국민연금공단 2.1% 2026년 연금액 인상 국민 여러분의 더 든든한 노후를 응원합니다!" [ref=e521]
+              - link "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다." [ref=e523] [cursor=pointer]:
+                - /url: https://www.npsonair.kr/advantages/detail.html?&strIdx=3744
+                - img "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다." [ref=e524]
+              - link "2026년도 새롭게 달라지는 국민연금 병오년 새해를 맞아 올해부터 바뀌는 국민연금 제도를 소개합니다!" [ref=e526] [cursor=pointer]:
+                - /url: " https://www.npsonair.kr/advantages/detail.html?strIdx=3769&strPage=1"
+                - img "2026년도 새롭게 달라지는 국민연금 병오년 새해를 맞아 올해부터 바뀌는 국민연금 제도를 소개합니다!" [ref=e527]
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - heading "국민연금 TV" [level=2] [ref=e530]
+              - generic [ref=e531]:
+                - generic [ref=e532]: 2 / 3
+                - generic [ref=e533]:
+                  - button "국민연금 TV 이전 배너" [ref=e534] [cursor=pointer]
+                  - button "국민연금 TV 자동움직임 멈춤" [ref=e535] [cursor=pointer]
+                  - button "국민연금 TV 다음 배너" [ref=e536] [cursor=pointer]
+            - generic [ref=e539]:
+              - link "국민연금 픽 NPS국민연금공단 2026년부터 연금개혁으로 이렇게 달라진다고? 늦기 전에 확인하세요!" [ref=e541] [cursor=pointer]:
+                - /url: javascript:fnc_videoLinkgUrlAddr('https://www.youtube.com/watch?v=E-FvJ3K_vZ8','','','');
+                - img "국민연금 픽 NPS국민연금공단 2026년부터 연금개혁으로 이렇게 달라진다고? 늦기 전에 확인하세요!" [ref=e542]
+              - link "NPS국민연금 국민과 함께 소통하는 국민연금공단 2025년 국민인식도 조사를 실시합니다." [ref=e544] [cursor=pointer]:
+                - /url: javascript:fnc_videoLinkgUrlAddr('https://www.youtube.com/watch?v=7DVxcYAtFFg','','','');
+                - img "NPS국민연금 국민과 함께 소통하는 국민연금공단 2025년 국민인식도 조사를 실시합니다." [ref=e545]
+              - link "NPS국민연금공단 강사 허성범 내가 공부해서 내가 알려주는 국민연금! 제대로 파헤쳐 보자" [ref=e547] [cursor=pointer]:
+                - /url: javascript:fnc_videoLinkgUrlAddr('https://www.youtube.com/watch?v=17Cq6FNKoBM','','','');
+                - img "NPS국민연금공단 강사 허성범 내가 공부해서 내가 알려주는 국민연금! 제대로 파헤쳐 보자" [ref=e548]
+              - link "국민연금 픽 NPS국민연금공단 2026년부터 연금개혁으로 이렇게 달라진다고? 늦기 전에 확인하세요!" [ref=e550] [cursor=pointer]:
+                - /url: javascript:fnc_videoLinkgUrlAddr('https://www.youtube.com/watch?v=E-FvJ3K_vZ8','','','');
+                - img "국민연금 픽 NPS국민연금공단 2026년부터 연금개혁으로 이렇게 달라진다고? 늦기 전에 확인하세요!" [ref=e551]
+              - link "NPS국민연금 국민과 함께 소통하는 국민연금공단 2025년 국민인식도 조사를 실시합니다." [ref=e553] [cursor=pointer]:
+                - /url: javascript:fnc_videoLinkgUrlAddr('https://www.youtube.com/watch?v=7DVxcYAtFFg','','','');
+                - img "NPS국민연금 국민과 함께 소통하는 국민연금공단 2025년 국민인식도 조사를 실시합니다." [ref=e554]
+          - generic [ref=e555]:
+            - heading "팝업존" [level=2] [ref=e556]
+            - generic [ref=e557]:
+              - generic [ref=e559]:
+                - link "비상시 안전을 위해 꼭 기억해야 할 4가지 행정안전부 비상시 국민행동요령 1.꼼꼼히 준비 2.안전하게 대피 3.귀 기울여 정부 안내방송 잘 듣기 4. 질서유지 및 상호배려하기" [ref=e561] [cursor=pointer]:
+                  - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000220&hmpgCd=01&hmpgBbsCd=BS20240137&sortSe=FR&pageIndex=1&searchText=&searchGbu=
+                  - img "비상시 안전을 위해 꼭 기억해야 할 4가지 행정안전부 비상시 국민행동요령 1.꼼꼼히 준비 2.안전하게 대피 3.귀 기울여 정부 안내방송 잘 듣기 4. 질서유지 및 상호배려하기" [ref=e563]
+                - link "2026년도 상반기 신입직원 채용공고 일반직 공개채용 공고 및 지원서 접수" [ref=e565] [cursor=pointer]:
+                  - /url: https://nps.saramin.co.kr
+                  - img "2026년도 상반기 신입직원 채용공고 일반직 공개채용 공고 및 지원서 접수" [ref=e567]
+                - link "국민권익위원회 주관 2025년 공공기관 종합청렴도 평가 결과- 종합청렴도 2등급-청렴체감도 3등급,청렴노력도 2등급" [ref=e569] [cursor=pointer]:
+                  - /url: https://www.nps.or.kr/pbcpgdnc/bzadpblnt/getOHAG0033M0.do?menuId=MN24001026
+                  - img "국민권익위원회 주관 2025년 공공기관 종합청렴도 평가 결과- 종합청렴도 2등급-청렴체감도 3등급,청렴노력도 2등급" [ref=e571]
+                - 'link "실종 치매 노인 찾기- 성명 : 김효임(여, 당시나이 만 88세/ 현재나이 만 88세) 실종일자 : 2025.10.31. 실종장소 : 전북특별자치도 순창군 장류로 신체특징 : 155cm, 47kg, 마른 체격, 흑색 짧은머리(퍼머)" [ref=e573] [cursor=pointer]':
+                  - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000204&hmpgCd=01&hmpgBbsCd=BS20240137&sortSe=FR&pageIndex=1&searchText=&searchGbu=
+                  - 'img "실종 치매 노인 찾기- 성명 : 김효임(여, 당시나이 만 88세/ 현재나이 만 88세) 실종일자 : 2025.10.31. 실종장소 : 전북특별자치도 순창군 장류로 신체특징 : 155cm, 47kg, 마른 체격, 흑색 짧은머리(퍼머)" [ref=e575]'
+                - link "공단 사칭 스미싱 범죄 주의 안내" [ref=e577] [cursor=pointer]:
+                  - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=NE202300000000029004&hmpgCd=01&hmpgBbsCd=BS20240137&sortSe=FR&pageIndex=1&searchText=%EC%8A%A4%EB%AF%B8%EC%8B%B1&searchGbu=%EC%A0%84%EC%B2%B4
+                  - img "공단 사칭 스미싱 범죄 주의 안내" [ref=e579]
+                - 'link "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다.국민연금법 개정으로 A값 초과소득월액 200만원 미만인 경우 감액없이 노령연금을 전액 지급받게 됩니다. * 2025년 이후 발생한 근로·사업소득부터 적용 시행일 : 2026.6.17." [ref=e581] [cursor=pointer]':
+                  - /url: https://www.npsonair.kr/advantages/detail.html?strIdx=3744&strPage=1
+                  - 'img "국민연금 노령연금 감액제도를 개선합니다. 일하는 어르신 연금 덜 깎습니다.국민연금법 개정으로 A값 초과소득월액 200만원 미만인 경우 감액없이 노령연금을 전액 지급받게 됩니다. * 2025년 이후 발생한 근로·사업소득부터 적용 시행일 : 2026.6.17." [ref=e583]'
+                - 'link "모두가 누리는 연금을 위한 국민연금 연구과제 대(對)국민 공모전 공모기간 : ~ 2026. 8. 31.(월) 공모분야 : 연금제도, 재정추계, 기금정책, 연금개혁 분야 발전에 기여할 수 있는 창의적이고 시의성 있는 연구과제" [ref=e585] [cursor=pointer]':
+                  - /url: https://institute.nps.or.kr/rschintr/rsrhflfmtasmt/getOHBB0008M0.do?menuId=MN24000548
+                  - 'img "모두가 누리는 연금을 위한 국민연금 연구과제 대(對)국민 공모전 공모기간 : ~ 2026. 8. 31.(월) 공모분야 : 연금제도, 재정추계, 기금정책, 연금개혁 분야 발전에 기여할 수 있는 창의적이고 시의성 있는 연구과제" [ref=e587]'
+                - link "청각 언어 장애인을 위한 국민연금 영상수어상담 서비스 국민연금에 대한 궁금증! 이제 국민연금 수어상담사와 영상으로 상담하세요" [ref=e589] [cursor=pointer]:
+                  - /url: https://nps.or.kr/comm/footer/getOHAH0002M0.do
+                  - img "청각 언어 장애인을 위한 국민연금 영상수어상담 서비스 국민연금에 대한 궁금증! 이제 국민연금 수어상담사와 영상으로 상담하세요" [ref=e591]
+                - link "비상시 안전을 위해 꼭 기억해야 할 4가지 행정안전부 비상시 국민행동요령 1.꼼꼼히 준비 2.안전하게 대피 3.귀 기울여 정부 안내방송 잘 듣기 4. 질서유지 및 상호배려하기" [ref=e593] [cursor=pointer]:
+                  - /url: https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000220&hmpgCd=01&hmpgBbsCd=BS20240137&sortSe=FR&pageIndex=1&searchText=&searchGbu=
+                  - img "비상시 안전을 위해 꼭 기억해야 할 4가지 행정안전부 비상시 국민행동요령 1.꼼꼼히 준비 2.안전하게 대피 3.귀 기울여 정부 안내방송 잘 듣기 4. 질서유지 및 상호배려하기" [ref=e595]
+                - link "2026년도 상반기 신입직원 채용공고 일반직 공개채용 공고 및 지원서 접수" [ref=e597] [cursor=pointer]:
+                  - /url: https://nps.saramin.co.kr
+                  - img "2026년도 상반기 신입직원 채용공고 일반직 공개채용 공고 및 지원서 접수" [ref=e599]
+              - generic [ref=e600]:
+                - generic [ref=e601]: 2 / 8
+                - generic [ref=e602]:
+                  - button "배너존 이전 배너" [ref=e603] [cursor=pointer]
+                  - button "배너존 자동움직임 멈춤" [ref=e604] [cursor=pointer]
+                  - button "배너존 다음 배너" [ref=e605] [cursor=pointer]
+                  - link "배너존 배너 모아보기" [ref=e606] [cursor=pointer]:
+                    - /url: "#popBannerList2"
+        - generic [ref=e607]:
+          - generic [ref=e608]:
+            - heading "공단 견학 프로그램" [level=2] [ref=e609]
+            - paragraph [ref=e610]: 국민연금공단을 탐방해 보세요.
+            - list [ref=e612]:
+              - listitem [ref=e613]:
+                - link "신청하기" [ref=e614] [cursor=pointer]:
+                  - /url: /pbcpgdnc/pbcpvst/getOHAG0042M0.do?menuId=MN24001027
+          - generic [ref=e615]:
+            - heading "국민연금 소식지" [level=2] [ref=e616]
+            - paragraph [ref=e617]: 국민연금의 다양한 소식을 만나보세요.
+            - list [ref=e619]:
+              - listitem [ref=e620]:
+                - link "뉴스레터" [ref=e621] [cursor=pointer]:
+                  - /url: /pbcpgdnc/pbtycntr/getOHAG0050M0List.do?menuId=MN24001597
+              - listitem [ref=e622]:
+                - link "웹진" [ref=e623] [cursor=pointer]:
+                  - /url: /pbcpgdnc/pbtycntr/getOHAG0051M0List.do?menuId=MN24001597
+          - generic [ref=e624]:
+            - heading "내 곁에 국민연금 APP 다운로드" [level=2] [ref=e625]
+            - paragraph [ref=e626]:
+              - text: 국민연금 조회부터 신청까지
+              - text: 한곳에서 쉽고 편리하게 이용해보세요.
+            - list [ref=e627]:
+              - listitem [ref=e628]:
+                - generic [ref=e629]:
+                  - img "Android QR code"
+                - paragraph [ref=e630]: Android
+              - listitem [ref=e631]:
+                - generic [ref=e632]:
+                  - img "iOS QR code"
+                - paragraph [ref=e633]: iOS
+    - contentinfo [ref=e634]:
+      - generic [ref=e636]:
+        - button "직원" [ref=e638] [cursor=pointer]
+        - button "위원회" [ref=e640] [cursor=pointer]
+        - button "업무별 홈페이지" [ref=e642] [cursor=pointer]
+      - generic [ref=e644]:
+        - generic [ref=e645]:
+          - generic [ref=e647]: 국민연금
+          - generic [ref=e648]:
+            - paragraph [ref=e649]: 54870 전북특별자치도 전주시 덕진구 기지로 180 (만성동, 국민연금)
+            - generic [ref=e650]:
+              - paragraph [ref=e651]:
+                - strong [ref=e652]: "국민연금 고객센터: 국번없이 1355(유료, 평일 09시~18시)"
+                - link "고객센터 ARS 구성도" [ref=e653] [cursor=pointer]:
+                  - /url: javascript:fnOpenBrws('/comm/footer/getOHAH0001M0.do','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=760,height=800')
+              - paragraph [ref=e654]:
+                - strong [ref=e655]: "해외이용: +82-63-713-6900(유료, 평일 09시~18시)"
+            - paragraph [ref=e656]: 본 홈페이지에 게시된 이메일 주소가 자동수집되는 것을 허용하지 않으며, 위반시 정보통신망법에 의해 처벌될 수 있습니다.
+            - link "영상수어상담" [ref=e657] [cursor=pointer]:
+              - /url: javascript:fnOpenBrws('/comm/footer/getOHAH0002M0.do','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=760,height=700')
+          - generic [ref=e658]:
+            - list [ref=e659]:
+              - listitem [ref=e660]:
+                - link "찾아오시는 길" [ref=e661] [cursor=pointer]:
+                  - /url: javascript:fnOpenBrws('/comm/footer/getOHAH0008M0.do','_blank','width=730,height=900,toolbar=no,menubar=no,scrollbars=yes,resizable=no,location=no,directories=no,status=no')
+              - listitem [ref=e662]:
+                - link "이용약관" [ref=e663] [cursor=pointer]:
+                  - /url: /comm/footer/getOHAH0004M0.do
+              - listitem [ref=e664]:
+                - link "홈페이지 개선의견" [ref=e665] [cursor=pointer]:
+                  - /url: /comm/footer/getOHAH0006M0List.do
+              - listitem [ref=e666]:
+                - link "인증서 모바일로 내보내기" [ref=e667] [cursor=pointer]:
+                  - /url: javascript:fnOpenBrws('/raonnx/nxCR/index.jsp','_blank','')
+            - list [ref=e669]:
+              - listitem [ref=e670]:
+                - link "페이스북" [ref=e671] [cursor=pointer]:
+                  - /url: https://www.facebook.com/proNPS
+              - listitem [ref=e672]:
+                - link "인스타그램" [ref=e673] [cursor=pointer]:
+                  - /url: https://instagram.com/npstagram
+              - listitem [ref=e674]:
+                - link "유튜브" [ref=e675] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/NaionalPensionServic
+              - listitem [ref=e676]:
+                - link "블로그" [ref=e677] [cursor=pointer]:
+                  - /url: https://blog.naver.com/pro_nps
+              - listitem [ref=e678]:
+                - link "onAir" [ref=e679] [cursor=pointer]:
+                  - /url: http://www.npsonair.kr/
+        - generic [ref=e680]:
+          - list [ref=e681]:
+            - listitem [ref=e682]:
+              - link "개인정보처리방침" [ref=e683] [cursor=pointer]:
+                - /url: /comm/footer/getOHAH0003M0.do
+                - strong [ref=e684]: 개인정보처리방침
+            - listitem [ref=e685]:
+              - link "홈페이지 이용안내" [ref=e686] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('/comm/footer/getOHAH0005M0.do','','width=1030,height=683,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+          - list [ref=e687]:
+            - listitem [ref=e688]:
+              - link "개인정보보호 관리체계 국제표준인증 ISO2770" [ref=e689] [cursor=pointer]:
+                - /url: /comm/pop/getISO27701.do
+            - listitem [ref=e690]:
+              - link "정보보호인증ISO27001" [ref=e691] [cursor=pointer]:
+                - /url: /comm/pop/getISO27001.do
+            - listitem [ref=e692]:
+              - link "웹접근성품질마크" [ref=e693] [cursor=pointer]:
+                - /url: javascript:fnOpenBrws('https://www.wa.or.kr/board/list.asp?search=total&SearchString=www.nps.or.kr&BoardID=0006','_blank','')
+          - paragraph [ref=e694]: copyright ⓒ nps.or.kr. all rights reserved.
+    - complementary [ref=e695]:
+      - link "공단사이트" [ref=e697] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e698]: 공단사이트
+      - link "챗봇연결" [ref=e700] [cursor=pointer]:
+        - /url: javascript:fnOpenBrws('https://chat.nps.or.kr/front/v1/jsp/view/chatWindowUpdate.jsp','_blank','width=700,height=750,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no')
+        - generic [ref=e701]: 챗봇연결
+      - link "TOP" [ref=e702] [cursor=pointer]:
+        - /url: "#wrap"

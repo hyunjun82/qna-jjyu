@@ -1,0 +1,364 @@
+{
+  "slug": "여권-재발급-절차-준비물-수수료",
+  "category": "법률",
+  "timestamp": "2026-03-11T08:04:37.363Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 9,
+      "passed": 14,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[여권 재발급은 온라인으로도 되나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[여권 재발급은 온라인으로도 되나요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[여권 재발급은 온라인으로도 되나요?] P3 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[여권 재발급 준비물은 뭐가 필요한가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[여권 재발급 준비물은 뭐가 필요한가요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[여권 재발급 준비물은 뭐가 필요한가요?] P3 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[여권 재발급 수수료는 얼마인가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[여권 재발급 수수료는 얼마인가요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "[여권 재발급 수수료는 얼마인가요?] P3 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[여권 재발급 신청할 때 주의할 점은 뭔가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[여권 재발급 신청할 때 주의할 점은 뭔가요?] P2 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[여권 재발급 신청할 때 주의할 점은 뭔가요?] P3 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] 구조화 테이블 OK"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 25% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": true,
+          "detail": "어미 연속 최대 2회 (2 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 2회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 22.2 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 날카로운 논리",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "출처 참조 밀도 4.8/섹션 (0.5 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 0건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 8,
+      "passed": 5,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 52자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": true,
+          "detail": "80자 초과 문장 3건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": false,
+          "detail": "쉼표 4개+ 문장 2건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명 OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "서류 정보 OK"
+        },
+        {
+          "id": "6D",
+          "pass": true,
+          "detail": "화이트리스트 링크 1개"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": true,
+          "detail": "description 111자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 105자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": true,
+          "detail": "모호 표현 없음"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": true,
+          "detail": "verify-facts PASS"
+        },
+        {
+          "id": "7G",
+          "pass": true,
+          "detail": "verify-selfcheck PASS"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (playwright)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 신뢰도 OK"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 0일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": true,
+          "detail": "소스 숫자 일치 OK"
+        }
+      ]
+    }
+  ],
+  "average": 9.6,
+  "verdict": "PASS",
+  "failedRules": []
+}

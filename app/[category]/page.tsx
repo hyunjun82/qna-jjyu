@@ -131,33 +131,75 @@ export default async function CategoryPage({ params }: Props) {
       />
 
       {/* Spoke Articles List */}
-      {hub && hub.spokes.length > 0 && (
-        <section className="mx-auto max-w-6xl px-4 pb-12">
-          <h2 className="mb-6 text-xl font-bold text-gray-900">
-            {cat.name} 관련 Q&A
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {hub.spokes.map((spoke) => (
-              <Link
-                key={spoke.slug}
-                href={`/${slug}/${spoke.slug}`}
-                className="group rounded-xl border border-gray-200 bg-white p-5 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-gov-200"
-              >
-                <h3 className="font-bold text-gray-900 group-hover:text-gov-600 transition-colors">
-                  {spoke.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                  {spoke.description}
-                </p>
-                <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-gov-600">
-                  자세히 보기
-                  <ChevronRight className="h-4 w-4" />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
+      {hub && hub.spokes.length > 0 && (() => {
+        const regularSpokes = hub.spokes.filter((s) => !s.group);
+        const hiddenSpokes = hub.spokes.filter((s) => s.group === "숨은지원금");
+        return (
+          <>
+            {/* 숨은 정부지원금 섹션 */}
+            {hiddenSpokes.length > 0 && (
+              <section className="mx-auto max-w-6xl px-4 pb-10">
+                <div className="mb-6 flex items-center gap-3">
+                  <span className="text-2xl">🎁</span>
+                  <div>
+                    <h2 className="text-xl font-bold text-gray-900">숨은 정부지원금 17가지</h2>
+                    <p className="text-sm text-gray-500">몰라서 못 받는 지원금, 지금 바로 확인하세요</p>
+                  </div>
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {hiddenSpokes.map((spoke) => (
+                    <Link
+                      key={spoke.slug}
+                      href={`/${slug}/${spoke.slug}`}
+                      className="group rounded-xl border border-blue-100 bg-blue-50 p-5 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-blue-300"
+                    >
+                      <h3 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                        {spoke.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-gray-500 line-clamp-2">
+                        {spoke.description}
+                      </p>
+                      <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+                        신청 방법 보기
+                        <ChevronRight className="h-4 w-4" />
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* 일반 Q&A 섹션 */}
+            {regularSpokes.length > 0 && (
+              <section className="mx-auto max-w-6xl px-4 pb-12">
+                <h2 className="mb-6 text-xl font-bold text-gray-900">
+                  {cat.name} 관련 Q&A
+                </h2>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {regularSpokes.map((spoke) => (
+                    <Link
+                      key={spoke.slug}
+                      href={`/${slug}/${spoke.slug}`}
+                      className="group rounded-xl border border-gray-200 bg-white p-5 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-gov-200"
+                    >
+                      <h3 className="font-bold text-gray-900 group-hover:text-gov-600 transition-colors">
+                        {spoke.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-gray-500 line-clamp-2">
+                        {spoke.description}
+                      </p>
+                      <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-gov-600">
+                        자세히 보기
+                        <ChevronRight className="h-4 w-4" />
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+          </>
+        );
+      })()}
 
       {/* Empty State */}
       {(!hub || hub.spokes.length === 0) && (
