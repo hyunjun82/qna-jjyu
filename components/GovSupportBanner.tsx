@@ -29,8 +29,11 @@ export function GovSupportBanner() {
 
   return (
     <>
-      {/* 스티키 하단 배너 */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#e8594a] text-white shadow-lg">
+      {/* 스티키 하단 배너 — 전체 클릭 가능 */}
+      <div
+        className="fixed bottom-0 left-0 right-0 z-50 bg-blue-600 text-white shadow-lg cursor-pointer hover:bg-blue-700 transition-colors"
+        onClick={() => setOpen(true)}
+      >
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
           <div className="flex items-center gap-2 min-w-0">
             <span className="text-lg">🎁</span>
@@ -39,12 +42,9 @@ export function GovSupportBanner() {
               <p className="text-xs text-white/80 leading-tight">내가 받을 수 있는 지원금 17가지 확인</p>
             </div>
           </div>
-          <button
-            onClick={() => setOpen(true)}
-            className="flex-shrink-0 bg-white text-[#e8594a] font-bold text-sm px-4 py-2 rounded-full hover:bg-gray-100 transition-colors"
-          >
-            확인하기
-          </button>
+          <span className="flex-shrink-0 bg-white text-blue-600 font-bold text-sm px-4 py-2 rounded-full">
+            신청하기
+          </span>
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export function GovSupportBanner() {
       {open && (
         <div className="fixed inset-0 z-[9999] flex flex-col bg-white">
           {/* 모달 헤더 */}
-          <div className="flex items-center justify-between px-4 py-3 bg-[#e8594a] text-white flex-shrink-0">
+          <div className="flex items-center justify-between px-4 py-3 bg-blue-600 text-white flex-shrink-0">
             <span className="font-bold text-sm">숨은 정부지원금 17가지</span>
             <button
               onClick={() => setOpen(false)}
@@ -73,7 +73,7 @@ export function GovSupportBanner() {
                     onClick={() => setOpen(false)}
                     className="flex items-center gap-3 px-4 py-3.5 hover:bg-gray-50 transition-colors"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#e8594a] text-white text-xs font-bold flex items-center justify-center">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center">
                       {i + 1}
                     </span>
                     <span className="text-sm font-medium text-gray-800">{item.label}</span>
