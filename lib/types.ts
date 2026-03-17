@@ -33,6 +33,7 @@ export interface QnAArticle {
   applyUrl?: string;
   datePublished: string;
   dateModified: string;
+  group?: string;
 }
 
 export interface HubArticle {
