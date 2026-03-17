@@ -15,6 +15,7 @@ import {
   hubArticle as 생활정보Hub,
   spokeArticles as 생활정보Spokes,
 } from "./생활정보";
+import { 숨은지원금Spokes } from "./숨은지원금";
 
 export const hubArticles: Record<string, HubArticle> = {
   법률: 법률Hub,
@@ -25,7 +26,7 @@ export const hubArticles: Record<string, HubArticle> = {
 
 export const spokeArticles: Record<string, Record<string, QnAArticle>> = {
   법률: 법률Spokes,
-  지원금: 지원금Spokes,
+  지원금: { ...지원금Spokes, ...숨은지원금Spokes },
   취업: 취업Spokes,
   생활정보: 생활정보Spokes,
 };

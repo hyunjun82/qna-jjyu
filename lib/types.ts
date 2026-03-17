@@ -30,6 +30,7 @@ export interface QnAArticle {
   faq: FAQItem[];
   tags: string[];
   source?: string;
+  applyUrl?: string;
   datePublished: string;
   dateModified: string;
 }

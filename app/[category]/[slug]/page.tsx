@@ -200,6 +200,21 @@ export default async function SpokePage({ params }: PageProps) {
           <p className="text-[15px] text-blue-800 leading-[1.85]">
             {article.quickAnswer}
           </p>
+          {article.applyUrl && (
+            <div className="mt-4">
+              <a
+                href={article.applyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-gov-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-gov-700 transition-colors"
+              >
+                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                온라인 신청하기
+              </a>
+            </div>
+          )}
         </div>
       </section>
 
