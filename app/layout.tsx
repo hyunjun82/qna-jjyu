@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { GovSupportBanner } from "@/components/GovSupportBanner";
 
 const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
@@ -63,8 +64,9 @@ export default function RootLayout({
         className={`${notoSansKR.variable} font-sans antialiased`}
       >
         <Header />
-        <main className="min-h-[calc(100vh-140px)]">{children}</main>
+        <main className="min-h-[calc(100vh-140px)] pb-16">{children}</main>
         <Footer />
+        <GovSupportBanner />
 
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
