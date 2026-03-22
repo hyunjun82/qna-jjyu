@@ -1,0 +1,402 @@
+{
+  "_meta": {
+    "generatedAt": "2026-03-11",
+    "description": "slug → source-data 매핑"
+  },
+  "여권-재발급-절차-준비물-수수료": {
+    "sourceFile": "여권-재발급-절차-준비물-수수료.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.passport.go.kr/home/kor/contents.do?menuPos=7",
+    "fetchedAt": "2026-03-11"
+  },
+  "소상공인-확인서-발급-절차-서류-신청방법": {
+    "sourceFile": "소상공인-확인서-발급-절차-서류-신청방법.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+    "fetchedAt": "2026-03-11"
+  },
+  "실업급여-조건-자진퇴사-계약만료-수급자격": {
+    "sourceFile": "실업급여-조건-자진퇴사-계약만료-수급자격.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=696",
+    "fetchedAt": "2026-03-11"
+  },
+  "근로자녀장려금-소득기준-가구유형-신청자격": {
+    "sourceFile": "근로자녀장려금-소득기준-가구유형-신청자격.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783",
+    "fetchedAt": "2026-03-11"
+  },
+  "실업급여-지급일수-금액-계산-수급기간": {
+    "sourceFile": "실업급여-지급일수-금액-계산-수급기간.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=696",
+    "fetchedAt": "2026-03-11"
+  },
+  "상생페이백-디지털-온누리상품권-유효기간-사용처": {
+    "sourceFile": "상생페이백-디지털-온누리상품권-유효기간-사용처.json",
+    "sourceType": "web-search-verified",
+    "sourceUrl": "https://www.semas.or.kr/web/SUP01/SUP0112/SUP011205.kmdc",
+    "fetchedAt": "2026-03-11"
+  },
+  "근로장려금-신청시기-종소세-신고-정기반기": {
+    "sourceFile": "근로장려금-신청시기-종소세-신고-정기반기.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977",
+    "fetchedAt": "2026-03-13"
+  },
+  "청년미래적금-도약계좌-갈아타기-기여금-비과세": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web-search-verified",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148954335",
+    "fetchedAt": "2026-03-13"
+  },
+  "자녀장려금-신청-심사기간-지급일-추가서류": {
+    "sourceFile": "자녀장려금-신청-심사기간-지급일-추가서류.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784",
+    "fetchedAt": "2026-03-14"
+  },
+  "새도약론-이란-채무조정-이행자-저금리-특례대출": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-신청자격-7년전연체-채무조정-6개월이상": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-대출한도-금리-이행기간별-조건표": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-신청방법-서민금융통합지원센터-비대면": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-새도약기금-차이-비교-선택기준": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-특별채무조정-5년연체-원금감면-신복위": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-채무조정-종류-신복위-법원-금융회사": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-운영구조-재원-장기소액연체자지원재단": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "새도약론-신청후-절차-서류-상담-연계": {
+    "sourceFile": "새도약론.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.fsc.go.kr/no010101/85641",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-가입조건-나이-소득-직장인-소상공인": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-일반형-우대형-차이-기여금-6-12": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-만기수령액-월50만원-3년-기여금-계산": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-금리-기여금-실질수익률-시중적금-비교": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-비과세-이자소득-기여금-전액-면제": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-청년도약계좌-비교-선택기준": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-중소기업-신규취업자-우대형-조건": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-소상공인-우대형-가입조건-연매출-기준": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-중도해지-기여금-비과세-혜택-소멸": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-도약계좌-갈아타기-특별중도해지-절차": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148944282",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-신청자격-재직자-실업자-자영업자": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-제외대상-공무원-대학생-소득기준": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-지원금액-300만원-500만원-차이": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-자부담-비율-직종-소득": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-신청방법-고용24-고용센터-절차": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-전액지원-훈련과정-국가기간-전략산업": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-140시간-진단상담-신청": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-재직자-훈련비-활용법": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-자영업자-연매출-특수형태근로": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "국민내일배움카드-5년-한도-잔액-재발급": {
+    "sourceFile": "국민내일배움카드-신청자격-지원금액-자부담.json",
+    "sourceType": "web-scrape-verified",
+    "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=12&systClId=SC00000004&systId=SI00000351",
+    "fetchedAt": "2026-03-17"
+  },
+  "자동차세-환급-신청-방법-위택스-절차": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1000&ccfNo=3&cciNo=3&cnpClsNo=1",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-환급금-조회-조회-안될때": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.wetax.go.kr",
+    "fetchedAt": "2026-03-22"
+  },
+  "폐차-자동차세-환급-말소-후-절차": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1000&ccfNo=3&cciNo=2&cnpClsNo=1",
+    "fetchedAt": "2026-03-22"
+  },
+  "중고차-판매-자동차세-환급-정산": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1000&ccfNo=3&cciNo=3&cnpClsNo=1",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-연납-환급-폐차-양도-차액": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1000&ccfNo=3&cciNo=3&cnpClsNo=1",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-환급-기간-입금-언제": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.wetax.go.kr",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-연납-신청-방법-할인-2026": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.seocho.go.kr/site/tax/03/10303010000002023050810.jsp",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-연납-할인율-기간-1월-3월": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.seocho.go.kr/site/tax/03/10303010000002023050810.jsp",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-연납-카드-납부-혜택": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.seocho.go.kr/site/tax/03/10303010000002023050810.jsp",
+    "fetchedAt": "2026-03-22"
+  },
+  "자동차세-연납-확인-자동납부-여부": {
+    "sourceFile": "자동차세-환급-종합.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.seocho.go.kr/site/tax/03/10303010000002023050810.jsp",
+    "fetchedAt": "2026-03-22"
+  },
+  "지방선거-알바-2026-신청-방법-자격-일당": {
+    "sourceFile": "지방선거-알바-공직선거법.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.law.go.kr/법령/공직선거법/제147조",
+    "fetchedAt": "2026-03-22"
+  },
+  "개표사무원-투표사무원-신청-급여-비교": {
+    "sourceFile": "지방선거-알바-공직선거법.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.law.go.kr/법령/공직선거법/제174조",
+    "fetchedAt": "2026-03-22"
+  },
+  "공정선거지원단-신청-자격-급여-활동": {
+    "sourceFile": "지방선거-알바-공직선거법.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.law.go.kr/법령/공직선거법/제10조",
+    "fetchedAt": "2026-03-22"
+  },
+  "선거-알바-4대보험-세금-처리-방법": {
+    "sourceFile": "지방선거-알바-공직선거법.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.law.go.kr/법령/공직선거법/제147조",
+    "fetchedAt": "2026-03-22"
+  },
+  "세금계산서-계산서-차이-부가세-면세": {
+    "sourceFile": "4월세금-법인지방소득세-원천세-세금계산서-확장.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694",
+    "fetchedAt": "2026-03-22"
+  },
+  "전자세금계산서-위수탁-발행-대리발행-방법": {
+    "sourceFile": "4월세금-법인지방소득세-원천세-세금계산서-확장.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694",
+    "fetchedAt": "2026-03-22"
+  },
+  "전자세금계산서-국세청-전송-기한-익월-11일": {
+    "sourceFile": "4월세금-법인지방소득세-원천세-세금계산서-확장.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694",
+    "fetchedAt": "2026-03-22"
+  },
+  "전자세금계산서-보관-의무기간-5년-전자보관": {
+    "sourceFile": "4월세금-법인지방소득세-원천세-세금계산서-확장.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-신고-대상-면제-기준": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-신고-기간-기한-5월-2025": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2225&cntntsId=7665",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-홈택스-신고-방법-절차": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-세율-과세표준-구간-계산": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-경비율-단순-기준-차이": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-프리랜서-3.3-사업소득-신고": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-환급-시기-조회-홈택스": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-가산세-무신고-납부지연": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2228&cntntsId=7668",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-모두채움-간편신고-방법": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40483&cntntsId=238978",
+    "fetchedAt": "2026-03-22"
+  },
+  "종합소득세-분납-납부기한-연장-신청": {
+    "sourceFile": "종합소득세-신고-종합.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
+    "fetchedAt": "2026-03-22"
+  }
+}
