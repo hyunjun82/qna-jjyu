@@ -20,6 +20,10 @@ import {
   hubArticle as 금융Hub,
   spokeArticles as 금융Spokes,
 } from "./금융";
+import {
+  hubArticle as 세금Hub,
+  spokeArticles as 세금Spokes,
+} from "./세금";
 
 export const hubArticles: Record<string, HubArticle> = {
   법률: 법률Hub,
@@ -27,6 +31,7 @@ export const hubArticles: Record<string, HubArticle> = {
   취업: 취업Hub,
   생활정보: 생활정보Hub,
   금융: 금융Hub,
+  세금: 세금Hub,
 };
 
 export const spokeArticles: Record<string, Record<string, QnAArticle>> = {
@@ -35,6 +40,7 @@ export const spokeArticles: Record<string, Record<string, QnAArticle>> = {
   취업: 취업Spokes,
   생활정보: 생활정보Spokes,
   금융: 금융Spokes,
+  세금: 세금Spokes,
 };
 
 export function getHubArticle(categorySlug: string): HubArticle | undefined {
