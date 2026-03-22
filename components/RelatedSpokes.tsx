@@ -17,7 +17,15 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
   const allOtherSpokes = hub.spokes.filter((s) => s.slug !== currentSlug);
   if (allOtherSpokes.length === 0) return null;
 
-  const displaySpokes = allOtherSpokes.slice(0, 3);
+  // 현재 글의 group을 찾아서 같은 group 글을 우선 표시
+  const currentSpoke = hub.spokes.find((s) => s.slug === currentSlug);
+  const currentGroup = currentSpoke?.group;
+  const sameGroupSpokes = currentGroup
+    ? allOtherSpokes.filter((s) => s.group === currentGroup)
+    : [];
+  const displaySpokes = sameGroupSpokes.length > 0
+    ? sameGroupSpokes.slice(0, 3)
+    : allOtherSpokes.slice(0, 3);
   const moreCount = allOtherSpokes.length;
 
   return (
