@@ -1,15 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/법률/여권-재발급-절차-준비물-수수료",
-        destination: "/생활정보/여권-재발급-절차-준비물-수수료",
-        permanent: true,
-      },
-    ];
-  },
+    output: 'export',
+    experimental: {
+          cpus: 1,
+    },
+    staticPageGenerationTimeout: 600,
+    images: {
+          unoptimized: true,
+    },
 };
 
 export default nextConfig;
