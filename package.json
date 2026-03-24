@@ -5,8 +5,10 @@
     "scripts": {
           "dev": "next dev",
           "build": "next build --webpack",
+          "postbuild": "node scripts/ping-indexnow.js",
           "start": "next start",
-          "lint": "eslint"
+          "lint": "eslint",
+          "ping-indexnow": "node scripts/ping-indexnow.js"
     },
     "dependencies": {
           "class-variance-authority": "^0.7.1",

@@ -458,5 +458,95 @@
     "sourceType": "playwright",
     "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2224&cntntsId=7664",
     "fetchedAt": "2026-03-22"
+  },
+  "여행가는봄-최대혜택-조합-중복할인": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "여행가는봄-공식사이트-신청-visitkorea": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "2026-여행가는봄-기간-일정-총정리": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "기차-할인-내일로패스-테마열차-2026": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korail.com/tour/touristIntor/tourEvent/monthTour",
+    "fetchedAt": "2026-03-24"
+  },
+  "인구감소지역-철도쿠폰-42개지역-신청": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "항공-네이버페이-포인트-2만원-국내선": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "숙박세일페스타-할인권-신청-비수도권": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "숙박세일페스타-연박-7만원-조건": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "바다가는달-5월-해양레저-숙박-할인": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "반값여행-지역사랑-휴가지원-신청방법": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/dgtourcard/tour50.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "인구감소지역-16개-지역-어디-반값여행": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/dgtourcard/tour50.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "지역화폐-환급-개인10만-단체20만-조건": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/dgtourcard/tour50.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "여행상품-40퍼센트-할인쿠폰-visitkorea": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr",
+    "fetchedAt": "2026-03-24"
+  },
+  "근로자-휴가지원-50퍼센트-3만원-신청": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
+  },
+  "5인5색-취향여행-이벤트-인플루언서-신청": {
+    "sourceFile": "여행가는봄-2026.json",
+    "sourceType": "web",
+    "sourceUrl": "https://korean.visitkorea.or.kr/travelmonth/main.do",
+    "fetchedAt": "2026-03-24"
   }
 }

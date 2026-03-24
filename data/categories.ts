@@ -64,4 +64,11 @@ export const categories: Category[] = [
     description: "여권 재발급, 주민등록, 운전면허 등 행정절차·생활 꿀팁 Q&A",
     count: 0,
   },
+  {
+    name: "여행/관광",
+    slug: "여행",
+    icon: "✈️",
+    description: "여행가는 봄 할인 혜택, 숙박세일페스타, 반값여행 등 정부 여행 지원 Q&A",
+    count: 0,
+  },
 ];
