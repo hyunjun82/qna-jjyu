@@ -3,6 +3,36 @@
     "generatedAt": "2026-03-11",
     "description": "slug → source-data 매핑"
   },
+  "경기통큰세일-2026-기간-일정": {
+    "sourceFile": "경기통큰세일-2026.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.gmr.or.kr/base/sale/list2?menuLevel=2&menuNo=63",
+    "fetchedAt": "2026-03-23"
+  },
+  "경기통큰세일-환급-조건-한도-12만원": {
+    "sourceFile": "경기통큰세일-2026.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.gmr.or.kr/base/sale/list2?menuLevel=2&menuNo=63",
+    "fetchedAt": "2026-03-23"
+  },
+  "경기통큰세일-참여방법-지역화폐-신청": {
+    "sourceFile": "경기통큰세일-2026.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.gmr.or.kr/base/sale/list2?menuLevel=2&menuNo=63",
+    "fetchedAt": "2026-03-23"
+  },
+  "경기통큰세일-사용처-참여업체-찾는법": {
+    "sourceFile": "경기통큰세일-2026.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.gmr.or.kr/base/sale/list2?menuLevel=2&menuNo=63",
+    "fetchedAt": "2026-03-23"
+  },
+  "경기통큰세일-성남-시흥-15퍼센트-차이": {
+    "sourceFile": "경기통큰세일-2026.json",
+    "sourceType": "playwright",
+    "sourceUrl": "https://www.gmr.or.kr/base/sale/list2?menuLevel=2&menuNo=63",
+    "fetchedAt": "2026-03-23"
+  },
   "여권-재발급-절차-준비물-수수료": {
     "sourceFile": "여권-재발급-절차-준비물-수수료.json",
     "sourceType": "playwright",
