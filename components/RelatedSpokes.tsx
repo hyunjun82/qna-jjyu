@@ -40,8 +40,8 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
         <ChevronRight className="h-5 w-5 shrink-0 group-hover:translate-x-0.5 transition-transform" />
       </Link>
 
-      {/* 광고 */}
-      <AdSlot />
+      {/* 광고 — mid */}
+      <AdSlot position="mid" />
 
       {/* 관련 글 카드 */}
       <div className="rounded-xl border border-gray-200 bg-gray-50/50 p-5 mt-3">

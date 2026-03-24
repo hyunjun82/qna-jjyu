@@ -209,9 +209,9 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* 광고 1 */}
+      {/* 광고 1 — top (핵심 답변 아래) */}
       <div className="py-6">
-        <AdSlot />
+        <AdSlot position="top" />
       </div>
 
       {/* top 위치 시각화 (본문 시작 전) */}
@@ -246,8 +246,8 @@ export default async function SpokePage({ params }: PageProps) {
               {/* 관련 Q&A: 2번째 섹션(i=1) 이후 본문 중간 배치 */}
               {i === 1 && <RelatedSpokes categorySlug={catSlug} currentSlug={spokeSlug} />}
 
-              {/* 광고: 3번째 섹션(i=2) 이후 */}
-              {i === 2 && <AdSlot />}
+              {/* 광고: 3번째 섹션(i=2) 이후 — mid */}
+              {i === 2 && <AdSlot position="mid" />}
             </Fragment>
           );
         })}
@@ -283,8 +283,8 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       )}
 
-      {/* 광고 2 */}
-      <AdSlot />
+      {/* 광고 2 — bottom (FAQ 아래) */}
+      <AdSlot position="bottom" />
 
       {/* 작성자 */}
       <AuthorBio

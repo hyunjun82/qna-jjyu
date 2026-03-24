@@ -9,7 +9,20 @@ declare global {
   }
 }
 
-export function AdSlot() {
+// AdSense 슬롯 ID 맵 (qna1~qna4)
+const AD_SLOT_IDS: Record<string, string> = {
+  top: "6692764063",    // qna1 — 핵심 답변 아래
+  mid: "8919739053",    // qna2 — 본문 중간 (관련글 섹션 위)
+  bottom: "5379682395", // qna3 — FAQ 아래
+};
+
+export type AdPosition = "top" | "mid" | "bottom";
+
+interface AdSlotProps {
+  position?: AdPosition;
+}
+
+export function AdSlot({ position = "top" }: AdSlotProps) {
   const pushed = useRef(false);
 
   useEffect(() => {
@@ -29,7 +42,7 @@ export function AdSlot() {
           className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client="ca-pub-2442517902625121"
-          data-ad-slot="8217706520"
+          data-ad-slot={AD_SLOT_IDS[position]}
           data-ad-format="auto"
           data-full-width-responsive="true"
         />

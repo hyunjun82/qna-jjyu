@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { GovSupportBanner } from "@/components/GovSupportBanner";
+import { AdAnchor } from "@/components/AdAnchor";
 
 const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
@@ -64,8 +65,9 @@ export default function RootLayout({
         className={`${notoSansKR.variable} font-sans antialiased`}
       >
         <Header />
-        <main className="min-h-[calc(100vh-140px)] pb-16">{children}</main>
+        <main className="min-h-[calc(100vh-140px)] pb-28">{children}</main>
         <Footer />
+        <AdAnchor />
         <GovSupportBanner />
 
         <Script
