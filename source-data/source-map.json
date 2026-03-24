@@ -3,6 +3,36 @@
     "generatedAt": "2026-03-11",
     "description": "slug → source-data 매핑"
   },
+  "청년미래적금-취급은행-카카오뱅크-토스뱅크-비대면-가입": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://v.daum.net/v/20260323144223657",
+    "fetchedAt": "2026-03-24"
+  },
+  "청년미래적금-2026-6월-출시일정-사전준비-서류": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148954335",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-중위소득-200퍼센트-확인방법-건보료-기준": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148953865",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-월납입-10만원-30만원-납입액별-수령액": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148953865",
+    "fetchedAt": "2026-03-17"
+  },
+  "청년미래적금-도약계좌-동시가입-중복-불가-선택": {
+    "sourceFile": "청년미래적금-도약계좌-갈아타기-기여금-비과세.json",
+    "sourceType": "web",
+    "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148954335",
+    "fetchedAt": "2026-03-17"
+  },
   "경기통큰세일-2026-기간-일정": {
     "sourceFile": "경기통큰세일-2026.json",
     "sourceType": "playwright",
