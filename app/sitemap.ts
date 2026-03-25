@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { hubArticles, spokeArticles } from "@/data/articles";
 
+export const dynamic = "force-static";
+
 const BASE = "https://qna.jjyu.co.kr";
 const NOW = new Date().toISOString();
 
