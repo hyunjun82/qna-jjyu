@@ -82,6 +82,16 @@ function checkStyle(article) {
     if (plain.includes(word)) errors.push(`AI냄새: "${word}"`);
   }
 
+  // 접속사 동일 단어 3회 이상 반복 체크
+  const mechanicalConnectors = ["그리고", "또한", "따라서", "그러므로", "아울러", "더불어"];
+  for (const conn of mechanicalConnectors) {
+    const re = new RegExp(conn, "g");
+    const cnt = (plain.match(re) || []).length;
+    if (cnt >= 3) {
+      errors.push(`접속사 반복: "${conn}" ${cnt}회 — 논리 흐름으로 대체하거나 줄이세요`);
+    }
+  }
+
   // filler 패턴
   for (const filler of style.fillerPatterns) {
     if (plain.includes(filler)) errors.push(`filler: "${filler}"`);
